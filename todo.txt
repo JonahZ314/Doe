@@ -9,11 +9,12 @@ Most important:
 * Clue.java
    * Constructor, toString() and getDescription() (1/10/17)
 * Inventory (Woo.java) (1/13/17)
+* Game Constructor (Woo.java) (1/15/17)
 * Creation of StoryPart.java and StoryPart#.java (1/16/17)
    * Figuring out which Storyline method to call based on number
    * The methods to print out the story and return clues // make very simple at first
 * Method for choosing the culprit (Woo.java) (1/18/17)
-* Game Constructor (Woo.java) (1/21/17)
+
 
 
 Optional:
