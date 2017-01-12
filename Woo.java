@@ -10,6 +10,20 @@ public class Woo {
 	Inventory = new ArrayList<Clue>() ;
     }
 
+    public void junctures(int x) {
+	if (x==1) {
+	    int lastChoice = checkPoints.get(checkPoints.size()-1);
+	    Clue zero = StoryPart0.match(lastChoice);
+	    Inventory.add(zero);
+	    while (checkPoints.size() < 2) {
+		int nextChoice = Keyboard.readInt();
+		if (nextChoice == (lastChoice*2) || nextChoice == ((lastChoice*2)-1)) {
+		    checkPoints.add(nextChoice);
+		}
+	    }
+
+	}
+
     public void InventoryScroll() {
 	int a = 0;
 	for (int x = 0; x < Inventory.size(); x += 1) {
@@ -31,10 +45,11 @@ public class Woo {
 	System.out.println( "Intro" ) ;
 	System.out.println( "Type something to begin:" ) ;
 	Keyboard.readString();
-	bob.checkPoints.add( 0 ) ;
-	System.out.println( bob.checkPoints ) ;
-	bob.InventoryScroll() ; 
+	bob.checkPoints.add( 1 ) ;
+	//System.out.println( bob.checkPoints ) ;
+	//bob.InventoryScroll() ; 
 	//System.out.println("Yo! You did it!");
+	bob.junctures(checkPoints.size());
     }
 }
 
