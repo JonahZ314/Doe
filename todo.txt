@@ -6,9 +6,9 @@ Alison Lee, Joanna Zhou, Kristin Lin
 CS Project To Do List
 
 Most important:
-* Clue.java
-   * Constructor, toString() and getDescription() (1/10/17)
-* Inventory (Woo.java) (1/13/17)
+* Clue.java (DONE 1/10/17)
+   * Constructor, toString() and getDescription() (1/10/17) 
+* Inventory (Woo.java) (1/13/17) (DONE 01/11/17)
 * Game Constructor (Woo.java) (1/15/17)
 * Creation of StoryPart.java and StoryPart#.java (1/16/17)
    * Figuring out which Storyline method to call based on number
