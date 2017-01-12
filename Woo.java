@@ -13,9 +13,8 @@ public class Woo {
     public static void main( String[] args ) {
 	Woo bob = new Woo() ;
 	System.out.println( "Intro" ) ;
-	while(( Keyboard.readString()).length() < 0  ) {
-	    System.out.println( "Type something to begin:" ) ;
-	    
-	}
+	System.out.println( "Type something to begin:" ) ;
+	Keyboard.readString();
+	System.out.println("Yo! You did it!");
     }
 }
