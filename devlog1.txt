@@ -1,0 +1,79 @@
+﻿Doe
+Kristin Lin
+Alison Lee
+Joanna Zhou
+pd 5
+---------------------
+Murder Mystery: Choose Your Own Adventure
+
+
+/////////// Zone of Reflection \\\\\\\\\\\
+------------------------------------------
+OBSTACLES OVERCOME
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+wow we so BOSS bc...
+
+
+UNRESOLVED ISSUES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- How the game would know when to end.
+	
+COOL STUFF LEARNED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+wow! oo!...
+
+MID-DEVELOPMENT DESIGN CHANGES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- We decided to change the StoryPart#s to start from 0 instead of 1, 
+  as well as the StoryLine#’s # to start over in its # count for each 
+  StoryPart#. For example, in StoryPart1, there will be StoryLine1 and 
+  StoryLine2. In StoryPart 2, there will be StoryLine1, StoryLine2, 
+  StoryLine3, and StoryLine4, rather than StoryPart3, StoryPart4, 
+  StoryPart5, and StoryPart6. This is to help put in place an algorithm
+  that will reinforce the user’s possible choices. Because of the way the 
+  choices branch off each other, if a user chose StoryLine(x), his or her
+  next choices can only be StoryLine(2x-1) and StoryLine(2x), which makes 
+  sure the user does not enter a choice that he should not be able to run. 
+
+LESSONS LEARNED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tales of wisdom gained...
+
+||||||||||||||||||||||||||||||||||||||||||
+	
+
+	
+
+______   ______   __   __   __       ______   _______    
+
+/_____/\ /_____/\ /_/\ /_/\ /_/\     /_____/\ /______/\   
+\:::_ \ \\::::_\/_\:\ \\ \ \\:\ \    \:::_ \ \\::::__\/__ 
+ \:\ \ \ \\:\/___/\\:\ \\ \ \\:\ \    \:\ \ \ \\:\ /____/\
+  \:\ \ \ \\::___\/_\:\_/.:\ \\:\ \____\:\ \ \ \\:\\_  _\/
+   \:\/.:| |\:\____/\\ ..::/ / \:\/___/\\:\_\ \ \\:\_\ \ \
+    \____/_/ \_____\/ \___/_(   \_____\/ \_____\/ \_____\/
+
+==============================================================
+
+2017-01-11
+--------------------------------------------------------------
+Kristin :: Worked on the main method of Woo.java as observer in pair 
+	programming. Added to Mid-Development Design Changes. Modified 
+	Woo.java to resolve errors.
+Alison :: Worked on the main method of Woo.java as driver in pair 
+	programming. Added to Unresolved Issues. Compiled and ran Woo.java.
+Joanna :: Finished writing Clue.java and worked on possible suspects 
+	in story plot. Wrote InventoryScroll method of Woo.java and modified
+	 Woo.java to resolve errors.
+==============================================================
+
+Before 01/11/2017
+--------------------------------------------------------------
+Kristin :: Worked on descriptions of Woo.java and StoryPart<#>.java and 
+	drew diagram in proposal. Organized flowchart and UML Diagram. 
+Alison :: Worked on showcases and solidifies section and description of 
+	StoryPart.java in proposal. Created flowchart and modified dates in 
+	todo list. 
+Joanna :: Worked on overview, story plot, and description of Clue.java in 
+	proposal. Modified flowchart and created todo list. 
+==============================================================
