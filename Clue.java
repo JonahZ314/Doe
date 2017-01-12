@@ -3,7 +3,7 @@ public class Clue {
     String description;
     public Clue(String nom, String appearence) {
 	name = nom;
-	description = appearence;
+	description = nom + ": " + appearence;
     }
     public String toString() {
 	return name;
