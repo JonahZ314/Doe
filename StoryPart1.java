@@ -16,22 +16,25 @@ public class StoryPart1 extends StoryPart{
 	else return whisper;
     }
     public Clue StoryLine1(){
-	System.out.println("\n-------------------------------" + 
-			   "\n\nDate at 38 Rose Street: Mrs. Irma Caro." +
+	System.out.println("\n\nDate at 38 Rose Street: Mrs. Irma Caro." +
 			   "\nYou have a new Clue!" + 
 			   "\n\nChoices: " + 
-			   "\n1 : Fight." +
-			   "\n2 : Flight." +
+			   "\n1 : Stevenson" +
+			   "\n2 : Evans" +
 			   "\n-------------------------------");
 	return gossip;
     }
     public Clue StoryLine2(){
+<<<<<<< HEAD
+	System.out.println("\n\nOdds, Ends and General Goods: Mr. Peter Arnolds." +
+=======
 	System.out.println("\n-------------------------------" + 
 			   "\n\nOdds, Ends and General Goods: Mr. Peter Arnolds." +
+>>>>>>> 55d322400a605ef883e0663ee95c02e69e879072
 			   "\nYou have a new Clue!" + 
 			   "\n\nChoices: " + 
-			   "\n1 : Fight." +
-			   "\n2 : Flight." +
+			   "\n1 : Open Street!" +
+			   "\n2 : Alley!" +
 			   "\n-------------------------------");
 	return cloth;
     }
