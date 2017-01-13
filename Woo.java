@@ -30,6 +30,7 @@ public class Woo {
 	    int input = Keyboard.readInt();
 	    if (input == 0) {
 		InventoryScroll();
+		junctures(this.checkPoints.size());
 	    } else {
 		if (input==(lastChoice*2)||input==((lastChoice*2)-1)) {
 		    this.checkPoints.add(input);
@@ -60,7 +61,7 @@ public class Woo {
 		//for Testing purposes:
 		//Clue clue = new Clue( "Uno" , "Hello." ) ;
 		//bob.Inventory.add( clue ) ;
-		System.out.println( "Intro" ) ;
+		System.out.println( "Welcome to Choose Your Own Adventure: Murder Mystery." ) ;
 		System.out.println( "Type something to begin:" ) ;
 		Keyboard.readString();
 		bob.checkPoints.add( 1 ) ;
