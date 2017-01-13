@@ -16,6 +16,7 @@ wow we so BOSS bc...
 UNRESOLVED ISSUES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - How the game would know when to end.
+- How to idiot proof the game so a wrong input won't make the player start over.
 	
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,6 +53,14 @@ ______   ______   __   __   __       ______   _______
    \:\/.:| |\:\____/\\ ..::/ / \:\/___/\\:\_\ \ \\:\_\ \ \
     \____/_/ \_____\/ \___/_(   \_____\/ \_____\/ \_____\/
 
+==============================================================
+2017-01-12
+--------------------------------------------------------------
+Kristin :: Edited StoryPart#s.
+Alison :: Modified UML and drew a new flowchart.
+Kristin and Alison :: Edited Woo.java, wrote juncture method.
+Joanna :: Worked on StoryPart, wrote StoryPart0, StoryPart1, and
+	StoryPart2. Created Clues. Worked on plot of the story.
 ==============================================================
 
 2017-01-11
