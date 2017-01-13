@@ -8,7 +8,7 @@ public class StoryPart0 extends StoryPart {
 	return StoryLine1();
     }
     public Clue StoryLine1() {
-	System.out.print("Placeholder.");
+	System.out.println("Placeholder.");
 	return planner;
     }
 }
