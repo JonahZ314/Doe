@@ -26,42 +26,35 @@ public class StoryPart2 extends StoryPart {
 	}
     }
     public Clue StoryLine1() {
-	System.out.println("\n-------------------------------" + 
-			   "\n\nScratch Tavern: Ms. Trixie Stevenson" +
+	System.out.println("\n\nScratch Tavern: Ms. Trixie Stevenson" +
 			   "\nYou have a new Clue!" + 
 			   "\n\nChoices: " + 
-			   "\n1 : Fight." +
-			   "\n2 : Flight." +
+			   "\n1 : Shortcut" +
+			   "\n2 : Lamp-lit Street" +
 			   "\n-------------------------------");
 	return letter;
     }
     public Clue StoryLine2() {
-	System.out.println("\n-------------------------------" + 
-			   "\n\nA Little Alley in Diagon: Harry Evans" + 
+	System.out.println("\n\nA Little Alley in Diagon: Harry Evans" + 
 			   "\nYou have a new Clue!" + 
 			   "\n\nChoices: " + 
-			   "\n1 : Fight." +
-			   "\n2 : Flight." +
+			   "\n1 : Arnolds" +
+			   "\n2 : Yelnats" +
 			   "\n-------------------------------");
 	return receipt;
     }
     public Clue StoryLine3() {
-	System.out.println("\n-------------------------------" + 
-			   "\n\nRun! Keeping Running: Attack on an Open Street!"+
+	System.out.println("\n\nRun! Keeping Running: Attack on an Open Street!"+
 			   "\nYou have a new Clue!" + 
 			   "\n\nChoices: " + 
-			   "\n1 : Fight." +
-			   "\n2 : Flight." +
+			   "\n1 : Investigate" +
+			   "\n2 : Stay until things die down" +
 			   "\n-------------------------------");
 	return knife;
     }
     public Clue StoryLine4() {
-	System.out.println("\n-------------------------------" + 
-			   "\n\nYou've met with a terrible fate, haven't you?" +
-			   "\nYou have a new Clue!" + 
-			   "\n\nChoices: " + 
-			   "\n1 : Fight." +
-			   "\n2 : Flight." +
+	System.out.println("\n\nYou've met with a terrible fate, haven't you?" +
+			   "\nDead End." +
 			   "\n-------------------------------");
 	return whisper;
     }

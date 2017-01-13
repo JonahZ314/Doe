@@ -12,12 +12,11 @@ public class StoryPart0 extends StoryPart {
     }
 
     public Clue StoryLine1() {
-	System.out.print("\n-------------------------------" + 
-			 "\n\nPlaceholder." +
+	System.out.print("\n\nPlaceholder." +
 			 "\nYou have a new clue!" + 
 			 "\n\nChoices: " +
-			 "\n1 : Fight." +
-			 "\n2 : Flight." +
+			 "\n1 : Caro." +
+			 "\n2 : Arnolds." +
 			 "\n-------------------------------");
 	return planner;
     }
