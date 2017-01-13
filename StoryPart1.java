@@ -1,6 +1,6 @@
 public class StoryPart1 extends StoryPart{
-    Clue gossip;
-    Clue cloth;
+    protected Clue gossip;
+    protected Clue cloth;
     public StoryPart1(){
 	super();
 	gossip = new Clue("Caro's gossip", "According to Caro, Felix was last seen around the Diagon District, heading to Main Street.");
