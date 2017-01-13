@@ -11,18 +11,29 @@ public class Woo {
     }
 
     public void junctures(int x) {
+	int lastChoice = checkPoints.get(checkPoints.size()-1);
 	if (x==1) {
-	    int lastChoice = checkPoints.get(checkPoints.size()-1);
-	    Clue zero = StoryPart0.match(lastChoice);
-	    Inventory.add(zero);
-	    while (checkPoints.size() < 2) {
-		int nextChoice = Keyboard.readInt();
-		if (nextChoice == (lastChoice*2) || nextChoice == ((lastChoice*2)-1)) {
-		    checkPoints.add(nextChoice);
+	    Inventory.add(StoryPart0.match(lastChoice));
+	}
+	if (x==2) {
+	    Inventory.add(StoryPart1.match(lastChoice));
+	}
+	if (x==3) {
+	    Inventory.add(StoryPart2.match(lastChoice));
+	}
+	while (checkPoints.size() <= x) {
+	    System.out.println ("Input the number of the choice you choose, or 0 to check your Inventory.");
+	    int input = Keyboard.readInt();
+	    if (input == 0) {
+		inventoryScroll();
+	    } else {
+		if (input==(lastChoice*2)||input==((lastChoice*2)-1)) {
+		checkPoints.add(input);
 		}
 	    }
-
 	}
+	junctures(checkPoints.size());
+    }
 
     public void InventoryScroll() {
 	int a = 0;
