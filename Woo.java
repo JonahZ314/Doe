@@ -11,32 +11,32 @@ public class Woo {
     }
 
     public void junctures(int x) {
-		int lastChoice = checkPoints.get(checkPoints.size()-1);
-		StoryPart bob;
-		if (x==1) {
-		    bob = new StoryPart0();
-	 		Inventory.add(bob.match(lastChoice));
+	int lastChoice = checkPoints.get(checkPoints.size()-1);
+	StoryPart bob;
+	if (x==1) {
+	    bob = new StoryPart0();
+	    Inventory.add(bob.match(lastChoice));
+	}
+	if (x==2) {
+	    bob = new StoryPart1();
+	    Inventory.add(bob.match(lastChoice));
+	}
+	if (x==3) {
+	    bob = new StoryPart2();
+	    Inventory.add(bob.match(lastChoice));
+	}
+	while (checkPoints.size() <= x) {
+	    System.out.println ("\nInput the number of the choice you choose, or 0 to check your Inventory.");
+	    int input = Keyboard.readInt();
+	    if (input == 0) {
+		InventoryScroll();
+	    } else {
+		if (input==(lastChoice*2)||input==((lastChoice*2)-1)) {
+		    this.checkPoints.add(input);
 		}
-		if (x==2) {
-	   		bob = new StoryPart1();
-	   		Inventory.add(bob.match(lastChoice));
-		}
-		if (x==3) {
-	   		bob = new StoryPart2();
-	   		Inventory.add(bob.match(lastChoice));
-		}
-		while (checkPoints.size() <= x) {
-	    	System.out.println ("\nInput the number of the choice you choose, or 0 to check your Inventory.");
-	    	int input = Keyboard.readInt();
-	    	if (input == 0) {
-				InventoryScroll();
-	    	} else {
-				if (input==(lastChoice*2)||input==((lastChoice*2)-1)) {
-					this.checkPoints.add(input);
-				}
-	    	}
-		}
-		junctures(this.checkPoints.size());
+	    }
+	}
+	junctures(this.checkPoints.size());
     }
 
     public void InventoryScroll() {
