@@ -26,7 +26,7 @@ public class Woo {
 	   		Inventory.add(bob.match(lastChoice));
 		}
 		while (checkPoints.size() <= x) {
-	    	System.out.println ("Input the number of the choice you choose, or 0 to check your Inventory.");
+	    	System.out.println ("\nInput the number of the choice you choose, or 0 to check your Inventory.");
 	    	int input = Keyboard.readInt();
 	    	if (input == 0) {
 				InventoryScroll();
