@@ -25,7 +25,12 @@ public class StoryPart1 extends StoryPart{
 	return gossip;
     }
     public Clue StoryLine2(){
+<<<<<<< HEAD
 	System.out.println("\n\nOdds, Ends and General Goods: Mr. Peter Arnolds." +
+=======
+	System.out.println("\n-------------------------------" + 
+			   "\n\nOdds, Ends and General Goods: Mr. Peter Arnolds." +
+>>>>>>> 55d322400a605ef883e0663ee95c02e69e879072
 			   "\nYou have a new Clue!" + 
 			   "\n\nChoices: " + 
 			   "\n1 : Open Street!" +
