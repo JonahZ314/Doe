@@ -33,6 +33,8 @@ public class Woo {
 	    } else {
 		if (input==(lastChoice*2)||input==((lastChoice*2)-1)) {
 		this.checkPoints.add(input);
+		} else {
+		    System.out.println("Unfortunately, there's no Option C. Choose again.");
 		}
 	    }
 	}
