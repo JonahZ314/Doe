@@ -28,8 +28,8 @@ public class StoryPart1 extends StoryPart{
 	System.out.println("\n\nOdds, Ends and General Goods: Mr. Peter Arnolds." +
 			   "\nYou have a new Clue!" + 
 			   "\n\nChoices: " + 
-			   "\n1 : Open Street!" +
-			   "\n2 : Alley!" +
+			   "\n3 : Open Street!" +
+			   "\n4 : Alley!" +
 			   "\n-------------------------------");
 	return cloth;
     }

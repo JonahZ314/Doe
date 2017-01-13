@@ -38,8 +38,8 @@ public class StoryPart2 extends StoryPart {
 	System.out.println("\n\nA Little Alley in Diagon: Harry Evans" + 
 			   "\nYou have a new Clue!" + 
 			   "\n\nChoices: " + 
-			   "\n1 : Arnolds" +
-			   "\n2 : Yelnats" +
+			   "\n3 : Arnolds" +
+			   "\n4 : Yelnats" +
 			   "\n-------------------------------");
 	return receipt;
     }
@@ -47,8 +47,8 @@ public class StoryPart2 extends StoryPart {
 	System.out.println("\n\nRun! Keeping Running: Attack on an Open Street!"+
 			   "\nYou have a new Clue!" + 
 			   "\n\nChoices: " + 
-			   "\n1 : Investigate" +
-			   "\n2 : Stay until things die down" +
+			   "\n5 : Investigate" +
+			   "\n6 : Stay until things die down" +
 			   "\n-------------------------------");
 	return knife;
     }
