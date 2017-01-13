@@ -41,10 +41,11 @@ public class Woo {
 
     public void InventoryScroll() {
 		int a = 0;
+		System.out.println("");
 		for (int x = 0; x < Inventory.size(); x += 1) {
 			System.out.println(( x + 1 ) + " : " + Inventory.get(x));
 		}
-		System.out.println("Type in the number of the clue you want to read about.");
+		System.out.println("\nType in the number of the clue you want to read about.");
 		System.out.println("When you're done, just type a number bigger than " + ( Inventory.size() ) + "." );
 		
 		a = Keyboard.readInt() ;
