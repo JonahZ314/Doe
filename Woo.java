@@ -12,27 +12,31 @@ public class Woo {
 
     public void junctures(int x) {
 	int lastChoice = checkPoints.get(checkPoints.size()-1);
+	StoryPart bob;
 	if (x==1) {
-	    Inventory.add(StoryPart0.match(lastChoice));
+	    bob = new StoryPart0();
+	    Inventory.add(bob.match(lastChoice));
 	}
 	if (x==2) {
-	    Inventory.add(StoryPart1.match(lastChoice));
+	    bob = new StoryPart1();
+	    Inventory.add(bob.match(lastChoice));
 	}
 	if (x==3) {
-	    Inventory.add(StoryPart2.match(lastChoice));
+	    bob = new StoryPart2();
+	    Inventory.add(bob.match(lastChoice));
 	}
 	while (checkPoints.size() <= x) {
 	    System.out.println ("Input the number of the choice you choose, or 0 to check your Inventory.");
 	    int input = Keyboard.readInt();
 	    if (input == 0) {
-		inventoryScroll();
+		InventoryScroll();
 	    } else {
 		if (input==(lastChoice*2)||input==((lastChoice*2)-1)) {
-		checkPoints.add(input);
+		this.checkPoints.add(input);
 		}
 	    }
 	}
-	junctures(checkPoints.size());
+	junctures(this.checkPoints.size());
     }
 
     public void InventoryScroll() {
@@ -60,7 +64,7 @@ public class Woo {
 	//System.out.println( bob.checkPoints ) ;
 	//bob.InventoryScroll() ; 
 	//System.out.println("Yo! You did it!");
-	bob.junctures(checkPoints.size());
+	bob.junctures(bob.checkPoints.size());
     }
 }
 
