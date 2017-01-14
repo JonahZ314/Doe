@@ -56,7 +56,7 @@ ______   ______   __   __   __       ______   _______
 ==============================================================
 2017-01-12
 --------------------------------------------------------------
-Kristin :: Edited StoryPart#s.
+Kristin :: Edited StoryPart#s and wrote chooseCulprit method.
 Alison :: Modified UML and drew a new flowchart.
 Kristin and Alison :: Edited Woo.java, wrote juncture method.
 Joanna :: Worked on StoryPart, wrote StoryPart0, StoryPart1, and

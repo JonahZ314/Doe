@@ -25,12 +25,15 @@ public class Woo {
 	    bob = new StoryPart2();
 	    Inventory.add(bob.match(lastChoice));
 	}
+	if (x==4) {
+	    this.chooseCulprit();
+	    return;
+	}
 	while (checkPoints.size() <= x) {
 	    System.out.println ("\nInput the number of the choice you choose, or 0 to check your Inventory.");
 	    int input = Keyboard.readInt();
 	    if (input == 0) {
 		InventoryScroll();
-		junctures(this.checkPoints.size());
 	    } else {
 		if (input==(lastChoice*2)||input==((lastChoice*2)-1)) {
 		    this.checkPoints.add(input);
@@ -38,6 +41,25 @@ public class Woo {
 	    }
 	}
 	junctures(this.checkPoints.size());
+    }
+
+    public void chooseCulprit() {
+	System.out.println("MOCK ENDING FOR DEMO VERS PURPOSES.");
+	System.out.println("\nThe time has come. Who is the murderer?" +
+			   "\n1. Mrs. Irma Caro" +
+			   "\n2. Mr. Peter Arnolds" +
+			   "\n3. Ms. Trixie Stevenson");
+	System.out.println("\nType in the number of your choice or 0 to check inventory.");
+	int a = Keyboard.readInt();
+	if (a == 0) {
+	    this.InventoryScroll();
+	    this.chooseCulprit();
+	}
+	if (a == 2) {
+	    System.out.println("Congradulations Sherlock! You've solved the crime!"); 
+	} else {
+	    System.out.println("You point your finger in confidence, but unfortunately, you have mistaken. With your incorrect accusation, an innocent has been made to suffer unjust consequences." + "\nThe End");
+	}
     }
 
     public void InventoryScroll() {
