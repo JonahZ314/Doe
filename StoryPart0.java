@@ -4,7 +4,7 @@ public class StoryPart0 extends StoryPart {
 
     public StoryPart0() {
 	super();
-	planner = new Clue("Planner", "Says 'Meet Caro' day before disappearance and 'Shake down customers' the day of. Weird.");
+	planner = new Clue("Planner", "Says 'Meet Caro' day before disappearance and 'Shake down customers -- don't forget Arnolds' the day of. Weird.");
     }
 
     public Clue match(int x) {
