@@ -56,7 +56,7 @@ public class Woo {
 	    this.chooseCulprit();
 	}
 	if (a == 2) {
-	    System.out.println("Congradulations Sherlock! You've solved the crime!"); 
+	    System.out.println("Congratulations Sherlock! You've solved the crime!"); 
 	} else {
 	    System.out.println("You point your finger in confidence, but unfortunately, you have mistaken. With your incorrect accusation, an innocent has been made to suffer unjust consequences." + "\nThe End");
 	}
