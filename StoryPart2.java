@@ -5,7 +5,7 @@ public class StoryPart2 extends StoryPart {
     public StoryPart2() {
 	super();
 	letter = new Clue("Letter from Caro", "Stevenson, I know you put a lotta trust in Mr. Casey, but I would much rather deal with someone else. He has taken a... liking to my husband, and it's making David quite uncomfortable.");
-	receipt = new Clue("Notes on Mr. Arnolds", "Looks like Felix was keeping some dirt on Peter Arnolds -- poor man.");
+	receipt = new Clue("Notes on the Nature of Mankind", "Looks like Felix was keeping some dirt on Peter Arnolds -- poor man. Who's Nikki Yelnats, though?");
 	knife = new Clue("Generic Knife, Bloody", "One on the generic knives that can be found at a general goods store. Doesn't have any fingerprints, unfortunatley.");
     }
     public Clue match(int x){
