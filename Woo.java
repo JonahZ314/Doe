@@ -72,7 +72,7 @@ public class Woo {
 		System.out.println("When you're done, just type a number bigger than " + ( Inventory.size() ) + "." );
 		
 		a = Keyboard.readInt() ;
-		while (a <= Inventory.size()) {
+		while (a <= Inventory.size() && a != 0 ) {
 			System.out.println(Inventory.get( a - 1 ).getDescription());
 			a = Keyboard.readInt() ; 
 		}
