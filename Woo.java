@@ -58,7 +58,7 @@ public class Woo {
 	if (a == 2) {
 	    System.out.println("Congratulations Sherlock! You've solved the crime!"); 
 	} else {
-	    System.out.println("You point your finger in confidence, but unfortunately, you have mistaken. With your incorrect accusation, an innocent has been made to suffer unjust consequences." + "\nThe End");
+	    System.out.println("You point your finger in confidence, but unfortunately, you were mistaken. With your incorrect accusation, an innocent has been made to suffer unjust consequences." + "\nThe End");
 	}
     }
 
@@ -72,7 +72,7 @@ public class Woo {
 		System.out.println("When you're done, just type a number bigger than " + ( Inventory.size() ) + "." );
 		
 		a = Keyboard.readInt() ;
-		while (a <= Inventory.size()) {
+		while (a <= Inventory.size() && a != 0 ) {
 			System.out.println(Inventory.get( a - 1 ).getDescription());
 			a = Keyboard.readInt() ; 
 		}
