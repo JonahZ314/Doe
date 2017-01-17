@@ -10,9 +10,17 @@ public class Woo {
 		Inventory = new ArrayList<Clue>() ;
     }
 
+    public void hindsight() {
+	//jump back to a specfic StoryPart
+    }
+
     public void junctures(int x) {
 	int lastChoice = checkPoints.get(checkPoints.size()-1);
 	StoryPart bob;
+	if (Inventory.get(Inventory.size()-1).equals(bob.whisper)) {
+	    this.hindsight();
+	    return;
+	}
 	if (x==1) {
 	    bob = new StoryPart0();
 	    Inventory.add(bob.match(lastChoice));
