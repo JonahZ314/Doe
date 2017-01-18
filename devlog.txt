@@ -57,6 +57,9 @@ ______   ______   __   __   __       ______   _______
 
 2017-01-17
 --------------------------------------------------------------
+Kristin :: Added the story plot in StoryPart0.java and 
+	StoryPart1.java.
+Alison :: Worked on the hindsight() method of Woo.java.
 Kristin and Alison :: Modified README.md and made minor changes
 	to Woo.java
 Joanna :: Worked on plot of story.
