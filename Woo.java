@@ -22,11 +22,7 @@ public class Woo {
 	
     public void junctures(int x) {
 	int lastChoice = checkPoints.get(checkPoints.size()-1);
-	StoryPart bob; /*
-	if (Inventory.get(Inventory.size()-1).equals(bob.whisper)) {
-	    this.hindsight();
-	    return;
-	} */
+	StoryPart bob = new StoryPart0(); 
 	if (x==1) {
 	    bob = new StoryPart0();
 	    Inventory.add(bob.match(lastChoice));
@@ -41,8 +37,13 @@ public class Woo {
 	}
 	if (x==4) {
 	    this.chooseCulprit();
+	    this.hindsight();
 	    return;
 	}
+	if (Inventory.get(Inventory.size()-1).equals(bob.whisper)) {
+	    this.hindsight();
+	    return;
+	} 
 	while (checkPoints.size() <= x) {
 	    System.out.println ("\nInput the number of the choice you choose, or 0 to check your Inventory.");
 	    int input = Keyboard.readInt();

@@ -1,4 +1,4 @@
-1public class StoryPart0 extends StoryPart {
+public class StoryPart0 extends StoryPart {
 
     protected Clue planner;
 
