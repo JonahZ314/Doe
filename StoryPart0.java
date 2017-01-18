@@ -1,4 +1,4 @@
-public class StoryPart0 extends StoryPart {
+1public class StoryPart0 extends StoryPart {
 
     protected Clue planner;
 
@@ -13,8 +13,7 @@ public class StoryPart0 extends StoryPart {
 
     public Clue StoryLine1() {
 	System.out.print("---------------------------------" +
-			 "\nChapter 0:" +
-			 "\nYounger Days " +
+			 "\nChapter 0: Younger Days " +
 			"\n\nIt's a normal morning in the office when trouble waltzes in. Trouble is a decidedly little lady -- perhaps fourteen at most. Most of my clients are middle-aged wives who think their husbands are cheating on them." +
 			 "\n'Why, hello there, little miss. What can I do for you?' Said little miss plops herself down on the seat." +
 			 "\n'I am eighteen, Mx. Doe. I am no little miss.'" + 
