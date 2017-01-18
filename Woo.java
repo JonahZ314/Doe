@@ -10,17 +10,23 @@ public class Woo {
 		Inventory = new ArrayList<Clue>() ;
     }
 
+	
     public void hindsight() {
-	//jump back to a specfic StoryPart
+		System.out.println( "You have reached an end. But you can go back! Which chapter would you like to go back to?" ) ;
+		int a = Keyboard.readInt() ;
+		while( checkPoints.size() > a ) {
+			checkPoints.remove( checkPoints.size() - 1 ) ;
+		}
+		junctures( a ) ;
     }
-
+	
     public void junctures(int x) {
 	int lastChoice = checkPoints.get(checkPoints.size()-1);
-	StoryPart bob;
+	StoryPart bob; /*
 	if (Inventory.get(Inventory.size()-1).equals(bob.whisper)) {
 	    this.hindsight();
 	    return;
-	    }
+	} */
 	if (x==1) {
 	    bob = new StoryPart0();
 	    Inventory.add(bob.match(lastChoice));
@@ -48,6 +54,7 @@ public class Woo {
 		}
 	    }
 	}
+	System.out.println( checkPoints ) ;
 	junctures(this.checkPoints.size());
     }
 
