@@ -1,5 +1,4 @@
 public class StoryPart3 extends StoryPart {
-	// protected Clue ; // for storyLine 1 (death)
 	protected Clue body ;
 	protected Clue video ;
 	protected Clue memo ;
