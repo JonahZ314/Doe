@@ -12,12 +12,16 @@ public class Woo {
 
 	
     public void hindsight() {
-		System.out.println( "You have reached an end. But you can go back! Which chapter would you like to go back to?" ) ;
-		int a = Keyboard.readInt() ;
-		while( checkPoints.size() > a ) {
-			checkPoints.remove( checkPoints.size() - 1 ) ;
-		}
-		junctures( a ) ;
+	System.out.println( "You have reached an end. But you can go back! Which chapter would you like to go back to? If you would like to end the game, type -1." ) ;
+	int a = Keyboard.readInt() ;
+	if( a == -1 || a > checkPoints.size() ) {
+	    return ;
+	}
+	while( checkPoints.size() > a ) {
+	    checkPoints.remove( checkPoints.size() - 1 ) ;
+	    Inventory.remove( Inventory.size() - 1 ) ;
+	}
+	junctures( a ) ;
     }
 	
     public void junctures(int x) {
