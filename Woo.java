@@ -20,7 +20,7 @@ public class Woo {
 	if (Inventory.get(Inventory.size()-1).equals(bob.whisper)) {
 	    this.hindsight();
 	    return;
-	}
+	    }
 	if (x==1) {
 	    bob = new StoryPart0();
 	    Inventory.add(bob.match(lastChoice));
