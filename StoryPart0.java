@@ -1,5 +1,4 @@
 public class StoryPart0 extends StoryPart {
-
     protected Clue planner;
 
     public StoryPart0() {
@@ -7,6 +6,7 @@ public class StoryPart0 extends StoryPart {
 	planner = new Clue("Planner", "Says 'Meet Caro' day before disappearance and 'Shake down customers -- don't forget Arnolds' the day of. Weird.");
     }
 
+    // chapter 0 will only have 1 StoryLine choice
     public Clue match(int x) {
 	return StoryLine1();
     }

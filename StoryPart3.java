@@ -23,6 +23,7 @@ public class StoryPart3 extends StoryPart {
 	if( x == 4 ) {
 	    return StoryLine4() ;
 	}
+	// player dies
 	else {
 	    return whisper;
 	}

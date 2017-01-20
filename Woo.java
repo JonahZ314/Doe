@@ -29,7 +29,7 @@ public class Woo {
     }
 	
     public void junctures(int x) {
-	// the storyLine that the player last chose
+	// the StoryLine that the player last chose
 	int lastChoice = checkPoints.get(checkPoints.size()-1);
 	StoryPart bob = new StoryPart0(); 
 	if (x==1) {
@@ -61,7 +61,7 @@ public class Woo {
 	    if (input == 0) {
 		InventoryScroll();
 	    }
-	    // ... if not 0, a storyLine choice was typed in. It will be added to checkPoints if it is within the range of choices. 
+	    // ... if not 0, a StoryLine choice was typed in. It will be added to checkPoints if it is within the range of choices. 
 	    else {
 		if (input==(lastChoice*2)||input==((lastChoice*2)-1)) {
 		    this.checkPoints.add(input);
