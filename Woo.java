@@ -17,11 +17,11 @@ public class Woo {
 	if( a == -1 || a > checkPoints.size() ) {
 	    return ;
 	}
-	while( checkPoints.size() > a ) {
+	while( checkPoints.size() > a + 1 ) {
 	    checkPoints.remove( checkPoints.size() - 1 ) ;
 	    Inventory.remove( Inventory.size() - 1 ) ;
 	}
-	junctures( a ) ;
+	junctures( a + 1 ) ;
     }
 	
     public void junctures(int x) {
@@ -59,7 +59,6 @@ public class Woo {
 		}
 	    }
 	}
-	System.out.println( checkPoints ) ;
 	junctures(this.checkPoints.size());
     }
 
