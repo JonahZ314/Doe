@@ -2,21 +2,25 @@ import cs1.Keyboard ;
 import java.util.ArrayList ;
 
 public class Woo {
-    private ArrayList<Integer> checkPoints ;
-    private ArrayList<Clue> Inventory ;
+    // both are ArrayLists so that elements can be added/removed
+    private ArrayList<Integer> checkPoints ; // stores the player's choices
+    private ArrayList<Clue> Inventory ; // stores Clues acquired throughout the game. Is based on player choices
     
     public Woo() {
 		checkPoints = new ArrayList<Integer>() ;
 		Inventory = new ArrayList<Clue>() ;
     }
 
-	
+    // Allows the player to go back to a certain point once he/she dies or finish the game. Incorporates junctures method.
     public void hindsight() {
 	System.out.println( "You have reached an end. But you can go back! Which chapter would you like to go back to? If you would like to end the game, type -1." ) ;
+	// user prompt asking for a chapter #. Range is [ 0 , 5 ]
 	int a = Keyboard.readInt() ;
-	if( a == -1 || a > checkPoints.size() ) {
+	// if the player enters something out of range, then the game stops entirely. 
+	if( a < 0 || a > checkPoints.size() ) {
 	    return ;
 	}
+	// removes a block of checkPoints and Inventory (which are of the same size). What's left behind are checkpoints and Clues corresponding to the chapter the user chose to go to 
 	while( checkPoints.size() > a + 1 ) {
 	    checkPoints.remove( checkPoints.size() - 1 ) ;
 	    Inventory.remove( Inventory.size() - 1 ) ;
@@ -25,6 +29,7 @@ public class Woo {
     }
 	
     public void junctures(int x) {
+	// the storyLine that the player last chose
 	int lastChoice = checkPoints.get(checkPoints.size()-1);
 	StoryPart bob = new StoryPart0(); 
 	if (x==1) {
@@ -44,6 +49,7 @@ public class Woo {
 	    this.hindsight();
 	    return;
 	}
+	// player dies, and is allowed to go back.
 	if (Inventory.get(Inventory.size()-1).equals(bob.whisper)) {
 	    this.hindsight();
 	    return;
@@ -51,9 +57,12 @@ public class Woo {
 	while (checkPoints.size() <= x) {
 	    System.out.println ("\nInput the number of the choice you choose, or 0 to check your Inventory.");
 	    int input = Keyboard.readInt();
+	    // player allowed to check Inventory if 0 is typed in and...
 	    if (input == 0) {
 		InventoryScroll();
-	    } else {
+	    }
+	    // ... if not 0, a storyLine choice was typed in. It will be added to checkPoints if it is within the range of choices. 
+	    else {
 		if (input==(lastChoice*2)||input==((lastChoice*2)-1)) {
 		    this.checkPoints.add(input);
 		}
@@ -62,6 +71,7 @@ public class Woo {
 	junctures(this.checkPoints.size());
     }
 
+    // the method allows the player to guess the murderer if he/she survives to the end.
     public void chooseCulprit() {
 	System.out.println("MOCK ENDING FOR DEMO VERS PURPOSES.");
 	System.out.println("\nThe time has come. Who is the murderer?" +
@@ -81,34 +91,33 @@ public class Woo {
 	}
     }
 
+    // the player can view the Inventory
     public void InventoryScroll() {
-		int a = 0;
-		System.out.println("");
-		for (int x = 0; x < Inventory.size(); x += 1) {
-			System.out.println(( x + 1 ) + " : " + Inventory.get(x));
-		}
-		System.out.println("\nType in the number of the clue you want to read about.");
-		System.out.println("When you're done, just type a number bigger than " + ( Inventory.size() ) + "." );
-		
-		a = Keyboard.readInt() ;
-		while (a <= Inventory.size() && a != 0 ) {
-			System.out.println(Inventory.get( a - 1 ).getDescription());
-			a = Keyboard.readInt() ; 
-		}
+	int a = 0;
+	System.out.println("");
+	for (int x = 0; x < Inventory.size(); x += 1) {
+	    System.out.println(( x + 1 ) + " : " + Inventory.get(x));
+	}
+	System.out.println("\nType in the number of the clue you want to read about.");
+	System.out.println("When you're done, just type a number bigger than " + ( Inventory.size() ) + "." );
+	
+	a = Keyboard.readInt() ;
+	// the Inventory can continued to be viewed as long as the player types in a number within the range of the numbers listed when the Inventory is printed out
+	while (a <= Inventory.size() && a != 0 ) {
+	    System.out.println(Inventory.get( a - 1 ).getDescription());
+	    a = Keyboard.readInt() ; 
+	}
     }
     
     public static void main( String[] args ) {
-		Woo bob = new Woo() ;
-		//for Testing purposes:
-		//Clue clue = new Clue( "Uno" , "Hello." ) ;
-		//bob.Inventory.add( clue ) ;
-		System.out.println( "Welcome to Choose Your Own Adventure: Murder Mystery." ) ;
-		System.out.println( "Type something to begin:" ) ;
-		Keyboard.readString();
-		bob.checkPoints.add( 1 ) ;
-		//System.out.println( bob.checkPoints ) ;
-		//bob.InventoryScroll() ; 
-		//System.out.println("Yo! You did it!");
-		bob.junctures(bob.checkPoints.size());
+	Woo bob = new Woo() ;
+	System.out.println( "Welcome to Choose Your Own Adventure: Murder Mystery." ) ;
+	System.out.println( "Type something to begin:" ) ;
+	Keyboard.readString();
+	bob.checkPoints.add( 1 ) ;
+	//System.out.println( bob.checkPoints ) ;
+	//bob.InventoryScroll() ; 
+	//System.out.println("Yo! You did it!");
+	bob.junctures(bob.checkPoints.size()); // starts at (Chapter) 0. 
     }
 }
