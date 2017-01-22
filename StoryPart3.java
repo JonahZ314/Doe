@@ -33,7 +33,7 @@ public class StoryPart3 extends StoryPart {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 3 - That Was Dumb" +
 			   "\n\n\tAwaiting seal" +
-			    "\n-------------------------------");
+			   "\n-------------------------------");
 	return whisper;
     }
     public Clue StoryLine2() {
