@@ -11,33 +11,34 @@ Murder Mystery: Choose Your Own Adventure
 ------------------------------------------
 OBSTACLES OVERCOME
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-wow we so BOSS bc...
+-Utilised superClass StoryPart.java so that match() could always return a clue,
+even given a dead ending.
+-Used Keyboard.readString() to let the player wait before entering the game proper.
+-Resolved the multiple ending print out issue.
 
 UNRESOLVED ISSUES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- How the game would know when to end.
 - How to idiot proof the game so a wrong input won't make the player start over.
+- How to keep the player from typing in a wrong input, resulting in a person in
+Chapter4 SL 1 picking a choice from Chapter4 SL4, or something like that.
 	
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-wow! oo!...
+
 
 MID-DEVELOPMENT DESIGN CHANGES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- We decided to change the StoryPart#s to start from 0 instead of 1, 
-  as well as the StoryLine#’s # to start over in its # count for each 
-  StoryPart#. For example, in StoryPart1, there will be StoryLine1 and 
-  StoryLine2. In StoryPart 2, there will be StoryLine1, StoryLine2, 
-  StoryLine3, and StoryLine4, rather than StoryPart3, StoryPart4, 
-  StoryPart5, and StoryPart6. This is to help put in place an algorithm
-  that will reinforce the user’s possible choices. Because of the way the 
-  choices branch off each other, if a user chose StoryLine(x), his or her
-  next choices can only be StoryLine(2x-1) and StoryLine(2x), which makes 
-  sure the user does not enter a choice that he should not be able to run. 
+- Adding hindsight(), which would let the player go back to whatever point of the game they wanted.
+	Was a last minute decision.
+- We were going to make each storyline a separate subclass, all connect the same way the timelines were.
+	Then we realized that it would take up too much space, and changed it to each subclass being a
+	chapter.
+- Adding whisper to StoryPart.java. Since match.java always needed to return a Clue, and since dead endings
+	needed Clue-s as well, Clue whisper was created, available to all subclasses.
 
 LESSONS LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-tales of wisdom gained...
+- Given if, if and else statements, the else actually connects to the first if, not the second.
 
 ||||||||||||||||||||||||||||||||||||||||||
 	
@@ -54,6 +55,14 @@ ______   ______   __   __   __       ______   _______
     \____/_/ \_____\/ \___/_(   \_____\/ \_____\/ \_____\/
 
 ==============================================================
+2017-01-22
+--------------------------------------------------------------
+Joanna :: Worked on plot of the story, finished.
+Kristin :: Transferred the story into StoryPart4.java, wrote
+	the base of StoryPart5.java, made the UML. Edited
+	Woo.java accordingly.
+Alison :: Edited the flowchart, transferred the story into
+	StoryPart5.java.
 
 2017-01-21
 --------------------------------------------------------------
