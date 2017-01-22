@@ -65,7 +65,19 @@ public class StoryPart3 extends StoryPart {
     public Clue StoryLine3() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 3 - We Need Answers!" +
-			   "\n\n\tAwaiting seal" +
+			   "\n\n\tArnolds. Isn't this the second time his name came up? I know him--the friendly, if timid, owner of the general goods store. Would he be involved?" +
+			   "\n\tI hope not, but my hopes have been dashed time and time again." +
+			   "\n\t'Mr. Arnolds?'" +
+			   "\n\t'Jay! How have you been?' He's cheerful today. He's had a rough week." +
+			   "\n\t'Can I ask you some questions?'" +
+			   "\n\tI hit dead end after dead end. Mr. Casey came to hassle him sometimes but was really only a nuisance. He came rarely, nowadays. Arnolds didn't talk to him much. Arnolds knew nothing about Mr. Casey's disappearance." +
+			   "\n\tI leave. That was a waste of time--oh. Well." +
+			   "\n\tThere's a videotape in the garbage, with the day before yesterday's date. Every instinct I have tells me to grab it, and I do. I practically run home to play it." +
+			   "\n\tFelix Casey is thee. I can't tell when, but he's there, in the store. What does this mean?" +
+			   "\n\tI'm about to play the video again when the phone rings." +
+			   "\n\tIt's my friend Nick. He heard about my case." +
+			   "\n\tHe's calling to tell me that they've found a body." +
+			   "\n\tIt's Felix Casey's." +
 			   "\n\nNew Clue: Videotape" +
 			   "\n\nChoices: " +
 			   "\n1 : Yelnats" +
@@ -77,7 +89,22 @@ public class StoryPart3 extends StoryPart {
     public Clue StoryLine4() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 3 - Who is She?" +
-			   "\n\nAwaiting seal" +
+			   "\n\n\tThe next morning, I call Nikki Yelnats to request an interview, and she suggests we meet at Firebird Confections. It turns out to be a quaint little bakery, with a good natured owner who greeted me when I stepped in." +
+			   "\n\tA woman in the back raises a hand, the other holding a small cake. Chocolate." +
+			   "\n\t'Mr. Doe?'" +
+			   "\n\t'Yes, that would be me." +
+			   "\n\tI sit down in front of her, 'Nice to meet you, Ms. Yelnats. I assume you know why I am here.'" +
+			   "\n\tShe nods, 'What do you want to know?'" +
+			   "\n\t'What was your relationship with Felix Casey?' She grimaces." +
+			   "\n\t'I don't care much for the man.'" +
+			   "\n\tI prod for nearly an hour before I get something solid. She's an architect, working for Stell and Bricks. She rather dislikes the, ahem, constraints of working there, as Ms. Stevenson has the boss in her pocket. However much Ms. Yelnats would like to leave, however, she can't." +
+			   "\n\tMr. Casey makes sure of that." +
+			   "\n\tHowever, she hasn't seen much of him as of late. He doesn't really care about her so long as she keeps working. The only person she has been seeing a lot of is, surprisingly, Ms. Stevenson herself. As the leader of one of the most powerful gangs in the state, her presence in such a small town is unusual. As far as Ms. Yelnats can tell, it's all part of some kind of recruitment effort. Ms. Stevenson wants to sink her claws high up, getting the more educated folks pulling favors for her." +
+			   "\n\tShe seemed particularly interested in Alice Casey, who had made the most of her education." +
+			   "\n\tBefore I leave, Yelnats hands me a memo. Stevenson thoughtfully provided a list of traits she wanted her new recruits to have. Namely, education and influence." +
+			   "\n\tI get home at a decent hour, and plan to meet Peter Arnolds later. As I sit to rest, the phone rings." +
+			   "\n\tIt's Nick, my friend in the precinct. He has heard about my latest case." +
+			   "\n\t They found a body. It's Felix Casey's" +
 			   "\n\nNew Clue: Yelnat's Memo" +
 			   "\n\nChoices: " +
 			   "\n1 : Go to the police station!"
