@@ -27,7 +27,7 @@ public class StoryPart2 extends StoryPart {
     }
     public Clue StoryLine1() {
 	System.out.println("\n------------------------------" +
-			   "\nCHAPTER 2 - Ms. Trixie Stevenson" + 
+			   "\nCHAPTER 2 - Scratch Tavern" + 
 			   "\n\n\tMrs. Caro calls Ms. Stevenson for me, to arrange a quick meeting. It's a short walk, at least. Stevenson greets me from the back of Scratch Tavern, a dingy old bar boasting a pool table and some dubious free mints. I sit, and buy a can of soda." +
 			   "\n\t'Ms.Doe.'" + 
 			   "\n\t'Ms. Stevenson. I heard that one of your employees went missing.'" +
@@ -44,7 +44,7 @@ public class StoryPart2 extends StoryPart {
     }
     public Clue StoryLine2() {
 	System.out.println("\n-------------------------------" +
-			   "\nCHAPTER 2 - Little Alley in Diagon: Harry Evans" +
+			   "\nCHAPTER 2 - Little Alley in Diagon" +
 			   "\n\n\tIt was well into the evening by the time I found Mr. Evans. Most of the time was spent wandering. I finally found him eating dinner outside a small alley." +
 			   "\n\t'Evenin'" +
 			   "\n\t'Good evening to you, too. Mr. Evans?'" +
@@ -66,7 +66,7 @@ public class StoryPart2 extends StoryPart {
     }
     public Clue StoryLine3() {
 	System.out.println("\n-------------------------------" +
-			   "\nCHAPTER 2 - Run! Keeping Running: Attack on an Open Street!" +
+			   "\nCHAPTER 2 - Attack on an Open Street!" +
 			   "\n\n\tI grab the knife and run to the open street. I get a wack on the head anyway, but keep running. My vision starts to go black--no, no no no no. One corner, two--I lose track. Did I lose him? I run, and my legs burn for it. I turn to check if he's there. I sway. I fall." +
 			   "\n\n\tI wake up. The room is softly lit, and it is morning. My head hurts." +
 			   "\n\t'Hello, Mx? Are you quite alright?' I turn." +
