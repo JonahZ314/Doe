@@ -94,7 +94,7 @@ public class StoryPart4 extends StoryPart {
 			   "\n\nNew Clue: Yelnat's Whereabouts" +
 			   "\n\nChoices: " +
 			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n2 : Arnolds" + 
+			   "\n3 : Arnolds" + 
 			   "\n-------------------------------");
 	return alibi;
     }
@@ -118,7 +118,7 @@ public class StoryPart4 extends StoryPart {
 			   "\n\nNew Clue: Li's Gossip" +
 			   "\n\nChoices: " +
 			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n2 : Go to the police station!" + 
+			   "\n4 : Go to the police station!" + 
 			   "\n-------------------------------");
 	return liGossip;
     }
@@ -136,7 +136,7 @@ public class StoryPart4 extends StoryPart {
 			   "\n\nNew Clue: Felix's Schedule" +
 			   "\n\nChoices: " +
 			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n2 : Arnolds" + 
+			   "\n5 : Yelnats" + 
 			   "\n-------------------------------");
 	return schedule;
     }
@@ -157,7 +157,7 @@ public class StoryPart4 extends StoryPart {
 			   "\n\nNew Clue: Canvas" +
 			   "\n\nChoices: " +
 			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n2 : Arnolds" + 
+			   "\n6 : Arnolds" + 
 			   "\n-------------------------------");
 	return canvas;
     }
@@ -181,7 +181,7 @@ public class StoryPart4 extends StoryPart {
 			   "\n\nNew Clue: Arnold's Gossip" +
 			   "\n\nChoices: " +
 			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n2 : Stevenson" + 
+			   "\n7 : Stevenson" + 
 			   "\n-------------------------------");
 	return arnoldGossip;
      }
@@ -204,7 +204,7 @@ public class StoryPart4 extends StoryPart {
 			   "\n\nNew Clue: Felix's List" +
 			   "\n\nChoices: " +
 			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n2 : Evans" + 
+			   "\n8 : Evans" + 
 			   "\n-------------------------------");
 	return list;
     }
@@ -240,7 +240,7 @@ public class StoryPart4 extends StoryPart {
 			   "\n\nNew Clue: Evan's Gossip" +
 			   "\n\nChoices: " +
 			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n2 : Go to Scratch Tavern" + 
+			   "\n9 : Go to Scratch Tavern" + 
 			   "\n-------------------------------");
 	return evanGossip;
     }

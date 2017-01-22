@@ -45,6 +45,18 @@ public class Woo {
 	    Inventory.add(bob.match(lastChoice));
 	}
 	if (x==4) {
+	    bob = new StoryPart3();
+	    Inventory.add(bob.match(lastChoice));
+	}
+	if (x==5) {
+	    bob = new StoryPart4();
+	    Inventory.add(bob.match(lastChoice));
+	}
+	if (x==6) {
+	    bob = new StoryPart5();
+	    Inventory.add(bob.match(lastChoice));
+	}
+	if (x==7) {
 	    this.chooseCulprit();
 	    this.hindsight();
 	    return;
@@ -73,7 +85,6 @@ public class Woo {
 
     // the method allows the player to guess the murderer if he/she survives to the end.
     public void chooseCulprit() {
-	System.out.println("MOCK ENDING FOR DEMO VERS PURPOSES.");
 	System.out.println("\nThe time has come. Who is the murderer?" +
 			   "\n1. Mrs. Irma Caro" +
 			   "\n2. Mr. Peter Arnolds" +
