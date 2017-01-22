@@ -88,8 +88,12 @@ public class StoryPart2 extends StoryPart {
 	return knife;
     }
     public Clue StoryLine4() {
-	System.out.println("\n\nYou've met with a terrible fate, haven't you?" +
-			   "\nDead End." +
+	System.out.println("\n-------------------------------" +
+			   "\nCHAPTER 2 - Dead End" +
+			   "\n\n\tThe alley was such a bad idea. I can't remember where the turns lead. I run, and run... And hit a dead end. There's a fire escape, and I jump for it." +
+			   "\n\tAnd I miss. And then the assailant is on top of me." +
+			   "\n\n\tIt hurts. Dying hurts so, so much." +
+			   "\n\tI want to find my parents first." +
 			   "\n-------------------------------");
 	return whisper;
     }
