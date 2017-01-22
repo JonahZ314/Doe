@@ -55,10 +55,18 @@ ______   ______   __   __   __       ______   _______
 
 ==============================================================
 
+2017-01-21
+--------------------------------------------------------------
+Joanna :: Worked on plot of story. 
+Kristin :: Added StoryPart4.java, worked on UML diagram, added
+	story content to StoryPart2.java. 
+==============================================================
+
 2017-01-20
 --------------------------------------------------------------
 Kristin, Joanna :: Worked on plot of story. 
-Alison :: Fixed bug in chooseCulprit() that printed ending twice.
+Alison :: Fixed bug in chooseCulprit() that printed ending twice; 
+	added comments to Woo.java, StoryPart0.java, and StoryPart3.java.
 ==============================================================
 
 2017-01-18
