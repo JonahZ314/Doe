@@ -75,7 +75,11 @@ public class StoryPart2 extends StoryPart {
 			   "\n\t'Can you tell me where I am?' I ask." +
 			   "\n\t'Oh! Um. This is my bakery, Firebird Confections! I'm Declan Khaand. I found you collapsed outside last night. You were bleeding.'" +
 			   "\n\tI reach up to my head, and my hand touches bandages." +
-			   "\n\t" +
+			   "\n\t'I know that this is a dangerous area, but, uh, do you mind telling me who you were running from?'" +
+			   "\n\tI struggle to remember, and shake my head no." +
+			   "\n\t'I found a corpse, I think? And then someone hit my head and...' I shrug." +
+			   "\n\t'Do you want to stay here until things die down, Mx...?'" +
+			   "\n\t'Doe, Jay Doe.'" +
 			   "\n\nNew Clue: Generic knife, bloody" +
 			   "\n\nChoices: " +
 			   "\n5 : Investigate" +

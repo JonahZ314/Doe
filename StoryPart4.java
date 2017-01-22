@@ -34,7 +34,7 @@ public class StoryPart4 extends StoryPart {
 
     public Clue StoryLine1() {
 	System.out.println("\n------------------------------" +
-			   "\nChapter 4: The Arnolds Investigation:" + 
+			   "\nCHAPTER 4 - The Arnolds Investigation:" + 
 			   "\n\nAwaiting seal" + 
 			   "\n\nNew Clue: Arnold's Taxes" +
 			   "\n\nChoices: " + 
@@ -46,7 +46,7 @@ public class StoryPart4 extends StoryPart {
 
     public Clue StoryLine2() {
 	System.out.println("\n-------------------------------" +
-			   "\nChapter 4: Finding Yelnats" +
+			   "\nCHAPTER 4 - Finding Yelnats" +
 			   "\n\nAwaiting seal" +
 			   "\n\nNew Clue: Yelnat's Whereabouts" +
 			   "\n\nChoices: " +
@@ -58,7 +58,7 @@ public class StoryPart4 extends StoryPart {
 
     public Clue StoryLine3() {
 	System.out.println("\n-------------------------------" +
-			   "\nChapter 4: Tea For Three" +
+			   "\nCHAPTER 4 - Tea For Three" +
 			   "\n\nAwaiting seal" +
 			   "\n\nNew Clue: Li's Gossip" +
 			   "\n\nChoices: " +
@@ -70,7 +70,7 @@ public class StoryPart4 extends StoryPart {
 
     public Clue StoryLine4() {
 	System.out.println("\n-------------------------------" +
-			   "\nChapter 4: The World is Always in Mourning" +
+			   "\nCHAPTER 4 - The World is Always in Mourning" +
 			   "\n\nAwaiting seal" +
 			   "\n\nNew Clue: Felix's Schedule" +
 			   "\n\nChoices: " +
@@ -82,7 +82,7 @@ public class StoryPart4 extends StoryPart {
 
     public Clue StoryLine5() {
 	System.out.println("\n-------------------------------" +
-			   "\nChapter 4: Confrontation at the Station" +
+			   "\nCHAPTER 4 - Confrontation at the Station" +
 			   "\n\nAwaiting seal" +
 			   "\n\nNew Clue: Canvas" +
 			   "\n\nChoices: " +
@@ -94,7 +94,7 @@ public class StoryPart4 extends StoryPart {
 
      public Clue StoryLine6() {
 	System.out.println("\n-------------------------------" +
-			   "\nChapter 4: Skeletons in the Closet" +
+			   "\nCHAPTER 4 - Skeletons in the Closet" +
 			   "\n\nAwaiting seal" +
 			   "\n\nNew Clue: Arnold's Gossip" +
 			   "\n\nChoices: " +
@@ -106,7 +106,7 @@ public class StoryPart4 extends StoryPart {
 
     public Clue StoryLine7() {
 	System.out.println("\n-------------------------------" +
-			   "\nChapter 4: Instinctive Justice" +
+			   "\nCHAPTER 4 - Instinctive Justice" +
 			   "\n\nAwaiting seal" +
 			   "\n\nNew Clue: Felix's List" +
 			   "\n\nChoices: " +
@@ -118,7 +118,7 @@ public class StoryPart4 extends StoryPart {
 
     public Clue StoryLine8() {
 	System.out.println("\n-------------------------------" +
-			   "\nChapter 4: Life Crumbles into Ashes" +
+			   "\nCHAPTER 4 - Life Crumbles into Ashes" +
 			   "\n\nAwaiting seal" +
 			   "\n\nNew Clue: Evan's Gossip" +
 			   "\n\nChoices: " +

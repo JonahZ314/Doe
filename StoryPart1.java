@@ -17,7 +17,7 @@ public class StoryPart1 extends StoryPart{
     }
     public Clue StoryLine1(){
 	System.out.println("\n------------------------------" + 
-			   "\nChapter 1: Date at 38 Rose Street: Mrs. Irma Caro." +
+			   "\nCHAPTER 1 - Date at 38 Rose Street: Mrs. Irma Caro." +
 			   "\n\n\tI opt to go to Mrs. Caro first. I don't know what Felix is like around the ladies -- perhaps he hit on her and pissed her off. It doesn't hurt to check. I am surprised to meet with her so quickly, but Ms. Casey has known her and called ahead. I have to take the train, for Rose Street, Mrs. Caro's favored meeting place, is on the other side of town. Mr. Casey had gone rarely. It is three hours before I arrive at the restaurant, just in time for lunch. Goldenheart's is classy, with tasteful paintings and carefully arranged bouquets, mostly roses. I go to the balcony." + 
 			   "\n\t'Hello, Mx. Doe. Or shall I call you Jay?'" + 
 			   "\n\t'Just call me Doe, Mrs. Caro.' She does not request that I call her Irma." +
@@ -35,8 +35,8 @@ public class StoryPart1 extends StoryPart{
     }
     public Clue StoryLine2(){
 	System.out.println("\n-------------------------------" +
-			   "\n\nOdds, Ends and General Goods: Mr. Peter Arnolds." +
-			   "Arnolds is closer to the office than Caro, and anyways, it's not as though I could simply call her and arrange a meeting. I go to the general store, stopping by the donut shop at the corner for a snack. Peter Arnolds is big, but timid. He might actually be more nervous than the last time I saw him." +
+			   "\n\nCHAPTER 1 - Odds, Ends and General Goods: Mr. Peter Arnolds." +
+			   "\n\n\tArnolds is closer to the office than Caro, and anyways, it's not as though I could simply call her and arrange a meeting. I go to the general store, stopping by the donut shop at the corner for a snack. Peter Arnolds is big, but timid. He might actually be more nervous than the last time I saw him." +
 			   "\n\t'Hello Jay,' he greets politely. 'What brings you here? Broke another door?'" + 
 			   "\n\t'Business, actually. A man's gone missing. Felix Casey -- perhaps you know him?'"+
 			   "\n\t'Casey?' He gulps. 'Now that...now that is a man you do not go looking for.'" + 
