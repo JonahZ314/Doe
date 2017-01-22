@@ -17,7 +17,7 @@ public class StoryPart4 extends StoryPart {
 	schedule = new Clue("Felix's Schedule", "Liked to hit up the stores at past closing time, at 9. Only the general goods store opens that late.");
 	canvas = new Clue("Canvas", "There's a fabric shop that stocks canvas, plus the general store, crafts store, and the fishmonger who uses canvas bags to carry things. It probably came from a worn bag, anyway.");
 	arnoldGossip = new Clue("Arnold's Gossip", "Arnolds says that Harry Evans had been hanging around late at night carrying a bundle to Nocturne.");
-	list = new Clue("Felix's List", "It seems he was very prolific. Felix had dirt on almost everyone in the town, including Nikki Yelnats and Peter Arnolds.");
+	list = new Clue("Felix's List", "Felix had dirt on almost everyone in the town, including Nikki Yelnats and Peter Arnolds.");
 	evanGossip = new Clue("Evan's Gossip", "placeholder");
     }
 
