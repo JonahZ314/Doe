@@ -63,7 +63,7 @@ public class StoryPart4 extends StoryPart {
 			   "\n\nNew Clue: Li's Gossip" +
 			   "\n\nChoices: " +
 			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n2 : Go to Police station" + 
+			   "\n2 : Go to the police station!" + 
 			   "\n-------------------------------");
 	return liGossip;
     }

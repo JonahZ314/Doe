@@ -30,29 +30,45 @@ public class StoryPart3 extends StoryPart {
     }
 
     public Clue StoryLine1() {
-	System.out.println( "\n\nThat was Dumb:" +
-			    "\nYou have a new Clue!" +
+	System.out.println("\n-------------------------------" +
+			   "\nCHAPTER 3 - That Was Dumb" +
+			   "\n\n\tAwaiting seal" +
 			    "\n-------------------------------");
 	return whisper;
     }
     public Clue StoryLine2() {
-	System.out.println( "\n\nJail Trip:" +
-			    "\nYou have a new Clue!" +
-			    "\n-------------------------------" ) ;
+	System.out.println("\n-------------------------------" +
+			   "\nCHAPTER 3 - Jail Trip" +
+			   "\n\nAwaiting seal" +
+			   "\n\nNew Clue: Felix's Corpse" +
+			   "\n\nChoices: " +
+			   "\n1 : Arnolds" +
+			   "\n2 : Yelnats" + 
+			   "\n-------------------------------" ) ;
 	return body ;
     }
     
     public Clue StoryLine3() {
-	System.out.println( "\n\nWe Need Answers:" +
-			    "\nYou have a new Clue!" +
-			    "\n-------------------------------" ) ;
+	System.out.println("\n-------------------------------" +
+			   "\nCHAPTER 3 - We Need Answers!" +
+			   "\n\n\tAwaiting seal" +
+			   "\n\nNew Clue: Videotape" +
+			   "\n\nChoices: " +
+			   "\n1 : Yelnats" +
+			   "\n2 : Go to the police station!" + 
+			   "\n-------------------------------" ) ;
 	return video ;
     }
 	
     public Clue StoryLine4() {
-	System.out.println( "\n\nWho is She?:" +
-			    "\nYou have a new Clue!" +
-			    "\n-------------------------------" ) ;
+	System.out.println("\n-------------------------------" +
+			   "\nCHAPTER 3 - Who is She?" +
+			   "\n\nAwaiting seal" +
+			   "\n\nNew Clue: Yelnat's Memo" +
+			   "\n\nChoices: " +
+			   "\n1 : Go to the police station!"
+			   "\n2 : Arnolds" +
+			   "\n-------------------------------" ) ;
 	return memo ;
     }
 }
