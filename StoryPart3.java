@@ -23,6 +23,12 @@ public class StoryPart3 extends StoryPart {
 	if( x == 4 ) {
 	    return StoryLine4() ;
 	}
+	if ( x == 5 ) {
+	    return StoryLine5();
+	}
+	if ( x == 6 ) {
+	    return StoryLine6();
+	}
 	// player dies
 	else {
 	    return whisper;
@@ -112,4 +118,38 @@ public class StoryPart3 extends StoryPart {
 			   "\n-------------------------------" ) ;
 	return memo ;
     }
+
+    public Clue StoryLine5() {
+	System.out.println("\n------------------------------" +
+			   "\nCHAPTER 3 - Ride Home" + 
+			   "\n\n\tI need to investigate. If I wait, Mr. Casey's--Felix's killer might not come to justice. Mr. Khaand is kind enough to call his cousin, Nikki, to walk me to the office. The silence is tense." + 
+			   "\n\t'I heard that you're investigating Felix Casey.' I nod." +
+			   "\n\t'Did you know about the blackmail?' I nod, curious." +
+			   "\n\t'There are ome things you need to know.'" +
+			   "\n\tMs. Yelnats tells me about how Felix was blackmailing her to keep her from quitting her architecture firm, Steel and Bricks, which was under the thumb of Felix's boss, Ms. Stevenson. She tells me about the firm's dealings with Mrs. Caro, a powerful and rather shady business woman. She tells me gossip, Felix's rivalry with Harry Evans, miscreant who prowls Diagon District. She tells me unusual behavior, how Caro came more often and how Stevenson came personally to this town to get educated recruits--particularly Alice Casey. How Felix was going down to Diagon more often. how everyone seemed more nervous." +
+			   "\n\tShe tells me she can get me a meeting with Stevenson. If I want to meet Evans, I just need to go to Diagon. She can't promise me Caro." +
+			   "\n\tShe hands me Stevenson's memo listing the traits she wanted in her recruits." +
+			   "\n\tI get to the office and call Alice. I leave a message, telling her what I saw." +
+			   "\n\tI flop into my chair when I'm done. I don't want to look my phone." +
+			   "\n\tIt starts to ring. Of course it does." +
+			   "\n\nNew Clue: Yelnat's Memo" +
+			   "\n\nChoices: " + 
+			   "\n1 : Stevenson" +
+			   "\n2 : Evans" +
+			   "\n-------------------------------");
+	return memo;
+    }
+
+    public Clue StoryLine6() {
+	System.out.println("\n------------------------------" +
+			   "\nCHAPTER 3 - Paix" +
+			   "\n\n\tI don't want to go back out anytime soon. Whoever was out there was either big, strong, and murderous or worse, able to hire someone else who is big, strong, and murderous. I lie low until things die down. Declan is kind enough to let me stay with him." + 
+			   "\n\tA week passes, and I pick up the investigation again. And then more weeks pass. And then months. The trail goes cold." + 
+			   "\n\tFelix gets a funeral. The body I saw is gone, long gone. They bury an empty caset. Alice grows up and out of this town. She's brilliant, an accomplished author, artist and scientist." +
+			   "\n\tThe world moves on." +
+			   "\n\tI will move on, too." +
+			   "\n-------------------------------");
+	return whisper;
+    }
+
 }

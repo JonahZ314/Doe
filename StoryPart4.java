@@ -34,7 +34,7 @@ public class StoryPart4 extends StoryPart {
 
     public Clue StoryLine1() {
 	System.out.println("\n------------------------------" +
-			   "\nCHAPTER 4 - The Arnolds Investigation:" + 
+			   "\nCHAPTER 4 - The Arnolds Investigation" + 
 			   "\n\nAwaiting seal" + 
 			   "\n\nNew Clue: Arnold's Taxes" +
 			   "\n\nChoices: " + 
