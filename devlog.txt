@@ -24,7 +24,9 @@ Chapter4 SL 1 picking a choice from Chapter4 SL4, or something like that.
 	
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+- An object can be initialized and then re-initialised.
+- If you copy and paste something from Google Docs, certain characters do not translate well.
+	This includes double and single quotes.
 
 MID-DEVELOPMENT DESIGN CHANGES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -35,6 +37,7 @@ MID-DEVELOPMENT DESIGN CHANGES
 	chapter.
 - Adding whisper to StoryPart.java. Since match.java always needed to return a Clue, and since dead endings
 	needed Clue-s as well, Clue whisper was created, available to all subclasses.
+- Number of endings cut down from 16 to 12 due to time restraints and a lack of material.
 
 LESSONS LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
