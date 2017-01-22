@@ -25,8 +25,26 @@ public class StoryPart4 extends StoryPart {
 	if (x == 1) {
 	    return StoryLine1();
 	}
-	else if (x == 2) {
+	if (x == 2) {
 	    return StoryLine2();
+	}
+	if (x == 3) {
+	    return StoryLine3();
+	}
+	if (x == 4) {
+	    return StoryLine4();
+	}
+	if (x == 5) {
+	    return StoryLine5();
+	}
+	if (x == 6) {
+	    return StoryLine6();
+	}
+	if (x == 7) {
+	    return StoryLine7();
+	}
+	if (x == 8) {
+	    return StoryLine8();
 	}
 	//player dies
 	else return whisper;

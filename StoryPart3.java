@@ -86,8 +86,8 @@ public class StoryPart3 extends StoryPart {
 			   "\n\tIt's Felix Casey's." +
 			   "\n\nNew Clue: Videotape" +
 			   "\n\nChoices: " +
-			   "\n1 : Yelnats" +
-			   "\n2 : Go to the police station!" + 
+			   "\n3 : Yelnats" +
+			   "\n4 : Go to the police station!" + 
 			   "\n-------------------------------" ) ;
 	return video ;
     }
@@ -113,8 +113,8 @@ public class StoryPart3 extends StoryPart {
 			   "\n\t They found a body. It's Felix Casey's" +
 			   "\n\nNew Clue: Yelnat's Memo" +
 			   "\n\nChoices: " +
-			   "\n1 : Go to the police station!"
-			   "\n2 : Arnolds" +
+			   "\n5 : Go to the police station!"
+			   "\n6 : Arnolds" +
 			   "\n-------------------------------" ) ;
 	return memo ;
     }
@@ -134,8 +134,8 @@ public class StoryPart3 extends StoryPart {
 			   "\n\tIt starts to ring. Of course it does." +
 			   "\n\nNew Clue: Yelnat's Memo" +
 			   "\n\nChoices: " + 
-			   "\n1 : Stevenson" +
-			   "\n2 : Evans" +
+			   "\n7 : Stevenson" +
+			   "\n8 : Evans" +
 			   "\n-------------------------------");
 	return memo;
     }
