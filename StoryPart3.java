@@ -113,7 +113,7 @@ public class StoryPart3 extends StoryPart {
 			   "\n\t They found a body. It's Felix Casey's" +
 			   "\n\nNew Clue: Yelnat's Memo" +
 			   "\n\nChoices: " +
-			   "\n5 : Go to the police station!"
+			   "\n5 : Go to the police station!" +
 			   "\n6 : Arnolds" +
 			   "\n-------------------------------" ) ;
 	return memo ;
