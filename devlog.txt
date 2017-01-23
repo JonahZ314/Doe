@@ -11,16 +11,23 @@ Murder Mystery: Choose Your Own Adventure
 ------------------------------------------
 OBSTACLES OVERCOME
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--Utilised superClass StoryPart.java so that match() could always return a clue,
-even given a dead ending.
--Used Keyboard.readString() to let the player wait before entering the game proper.
--Resolved the multiple ending print out issue.
+- Utilised superClass StoryPart.java so that match() could always return a clue,
+	even given a dead ending. (The super() included a Clue called whisper, so
+	that there is always a Clue to return.)
+- Used Keyboard.readString() to let the player wait before entering the game proper.
+- Resolved the multiple ending print out issue by adding an else in front of the
+	second if statement (props to Alison).
+- We used an int[] to keep track of the player's choices, and then depending on those
+	choices the game would progress to the next chapter (using if statements).
 
 UNRESOLVED ISSUES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - How to idiot proof the game so a wrong input won't make the player start over.
 - How to keep the player from typing in a wrong input, resulting in a person in
-Chapter4 SL 1 picking a choice from Chapter4 SL4, or something like that.
+	Chapter4 SL 1 picking a choice from Chapter4 SL4, or something like that.
+- Player choices. The numbers of the choices make no sense -- chapter 4 has choices
+	such as 1 and 6 together. Even Chapter 1 storyLine2 gives choices like 3
+	and 4.
 	
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -38,6 +45,8 @@ MID-DEVELOPMENT DESIGN CHANGES
 - Adding whisper to StoryPart.java. Since match.java always needed to return a Clue, and since dead endings
 	needed Clue-s as well, Clue whisper was created, available to all subclasses.
 - Number of endings cut down from 16 to 12 due to time restraints and a lack of material.
+- Instead of being a juncture method between implementation of storyPart# methods, juncture() became the
+	method that implemented nearly every part of the game, if not all.
 
 LESSONS LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
