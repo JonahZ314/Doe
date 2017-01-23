@@ -93,8 +93,8 @@ public class StoryPart4 extends StoryPart {
 			   "\n\tI have one more suspect--Arnolds." +
 			   "\n\nNew Clue: Yelnat's Whereabouts" +
 			   "\n\nChoices: " +
-			   "\n3 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n4 : Arnolds" + 
+			   "\n7 : You have a hunch? Skip the last suspect and make your guess!" +
+			   "\n8 : Arnolds" + 
 			   "\n-------------------------------");
 	return alibi;
     }
