@@ -22,12 +22,6 @@ public class StoryPart4 extends StoryPart {
     }
 
     public Clue match(int x) {
-	if (x == 1) {
-	    return StoryLine1();
-	}
-	if (x == 2) {
-	    return StoryLine2();
-	}
 	if (x == 3) {
 	    return StoryLine3();
 	}
@@ -46,11 +40,17 @@ public class StoryPart4 extends StoryPart {
 	if (x == 8) {
 	    return StoryLine8();
 	}
+	if (x == 9) {
+	    return StoryLine9();
+	}
+	if (x == 10) {
+	    return StoryLine10();
+	}
 	//player dies
 	else return whisper;
     }
 
-    public Clue StoryLine1() {
+    public Clue StoryLine3() {
 	System.out.println("\n------------------------------" +
 			   "\nCHAPTER 4 - The Arnolds Investigation" + 
 			   "\n\n\tArnolds is tense. Arnolds is quiet. Arnolds is, as always, polite." + 
@@ -71,13 +71,13 @@ public class StoryPart4 extends StoryPart {
 			   "\n\t'Nev Moore,' the kid slips me the tax papers and scrawled calculations before he goes to the store for a sweet." +
 			   "\n\nNew Clue: Arnold's Taxes" +
 			   "\n\nChoices: " + 
-			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n2 : Yelnats" +
+			   "\n5 : You have a hunch? Skip the last suspect and make your guess!" +
+			   "\n6 : Yelnats" +
 			   "\n-------------------------------");
 	return taxes;
     }
 
-    public Clue StoryLine2() {
+    public Clue StoryLine4() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 4 - Finding Yelnats" +
 			   "\n\n\tI contact Ms. Stevenson. Felix had...coerced Ms. Yelnats into working for the Steel and Bricks architecture firm. She seems to be one of the few who hold a grudge rather than cower in fear of the Pixies." +
@@ -93,13 +93,13 @@ public class StoryPart4 extends StoryPart {
 			   "\n\tI have one more suspect--Arnolds." +
 			   "\n\nNew Clue: Yelnat's Whereabouts" +
 			   "\n\nChoices: " +
-			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n3 : Arnolds" + 
+			   "\n3 : You have a hunch? Skip the last suspect and make your guess!" +
+			   "\n4 : Arnolds" + 
 			   "\n-------------------------------");
 	return alibi;
     }
 
-    public Clue StoryLine3() {
+    public Clue StoryLine5() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 4 - Tea For Three" +
 			   "\n\n\tI need to find Yelnats first. According to Mr. Evans, Felix had to blackmail her into staying at the Steel and Bricks architecture firm. For all I know she'll skip town as soon as she hears that Felix died. Evans tags along. He's a bit jittery about the part of town she agreed to meet up in." +
@@ -117,13 +117,13 @@ public class StoryPart4 extends StoryPart {
 			   "\n\tI head to the police station, and Mr. Evans bid me farewell." +
 			   "\n\nNew Clue: Li's Gossip" +
 			   "\n\nChoices: " +
-			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n4 : Go to the police station!" + 
+			   "\n9 : You have a hunch? Skip the last suspect and make your guess!" +
+			   "\n10 : Go to the police station!" + 
 			   "\n-------------------------------");
 	return liGossip;
     }
 
-    public Clue StoryLine4() {
+    public Clue StoryLine6() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 4 - The World is Always in Mourning" +
 			   "\n\n\tI get to the police station as soon as I can. Alice is there already--she was the one to confirm the body." +
@@ -135,13 +135,13 @@ public class StoryPart4 extends StoryPart {
 			   "\n\tShe can't give me much that I don't already know. The only thing she can give me is the Felix's typical schedule. He liked to hit up the stores on Main street for money, and come to her as soon as he finished or the next day. He never came by that night, or the next day, and now she knows to stop waiting. She scrawls a summary and leaves. She has work to do." +
 			   "\n\nNew Clue: Felix's Schedule" +
 			   "\n\nChoices: " +
-			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n5 : Yelnats" + 
+			   "\n11 : You have a hunch? Skip the last suspect and make your guess!" +
+			   "\n12 : Yelnats" + 
 			   "\n-------------------------------");
 	return schedule;
     }
 
-    public Clue StoryLine5() {
+    public Clue StoryLine7() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 4 - Confrontation at the Station" +
 			   "\n\n\tI end up calling Ms. Yelnats before I head to the station. Nick mentioned that the body was found in Nocturne. Ms. Yelnats is startingly popular despite her bitterness. Perhaps she can help me find someone who saw something." +
@@ -156,13 +156,13 @@ public class StoryPart4 extends StoryPart {
 			   "\n\tAlice is still silent." +
 			   "\n\nNew Clue: Canvas" +
 			   "\n\nChoices: " +
-			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n6 : Arnolds" + 
+			   "\n13 : You have a hunch? Skip the last suspect and make your guess!" +
+			   "\n14 : Arnolds" + 
 			   "\n-------------------------------");
 	return canvas;
     }
 
-     public Clue StoryLine6() {
+     public Clue StoryLine8() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 4 - Skeletons in the Closet" +
 			   "\n\n\tIt is almost 7 p'clock when I step into the local general goods store." +
@@ -180,13 +180,13 @@ public class StoryPart4 extends StoryPart {
 			   "\n\tMr. Arnolds says he saw someone, hours after Harry Evans walked me home, take ea large bundle in the direction of Nocturne. He is... suspicious. I am, too." +
 			   "\n\nNew Clue: Arnold's Gossip" +
 			   "\n\nChoices: " +
-			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n7 : Stevenson" + 
+			   "\n15 : You have a hunch? Skip the last suspect and make your guess!" +
+			   "\n16 : Stevenson" + 
 			   "\n-------------------------------");
 	return arnoldGossip;
      }
 
-    public Clue StoryLine7() {
+    public Clue StoryLine9() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 4 - Instinctive Justice" +
 			   "\n\n\t'Mx. Doe.' The voice on the phone was cold." +
@@ -203,13 +203,13 @@ public class StoryPart4 extends StoryPart {
 			   "\n\tI leave the two women. I have never known what tranquil fury meant before, but now that I do, I don't want to see it in action." +
 			   "\n\nNew Clue: Felix's List" +
 			   "\n\nChoices: " +
-			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n8 : Evans" + 
+			   "\n17 : You have a hunch? Skip the last suspect and make your guess!" +
+			   "\n18 : Evans" + 
 			   "\n-------------------------------");
 	return list;
     }
 
-    public Clue StoryLine8() {
+    public Clue StoryLine10() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 4 - Life Crumbles into Ashes" +
 			   "\n\n\t'Mx. Doe.' The voice on the phone was cold." +
@@ -239,8 +239,8 @@ public class StoryPart4 extends StoryPart {
 			   "\n\tWell. At least I won't be alone with Stevenson." +
 			   "\n\nNew Clue: Evan's Gossip" +
 			   "\n\nChoices: " +
-			   "\n1 : You have a hunch? Skip the last suspect and make your guess!" +
-			   "\n9 : Go to Scratch Tavern" + 
+			   "\n19 : You have a hunch? Skip the last suspect and make your guess!" +
+			   "\n20 : Go to Scratch Tavern" + 
 			   "\n-------------------------------");
 	return evanGossip;
     }
