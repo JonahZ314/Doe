@@ -23,7 +23,9 @@ public class Woo {
 	// removes a block of checkPoints and Inventory (which are of the same size). What's left behind are checkpoints and Clues corresponding to the chapter the user chose to go to 
 	while( checkPoints.size() > a + 1 ) {
 	    checkPoints.remove( checkPoints.size() - 1 ) ;
-	    Inventory.remove( Inventory.size() - 1 ) ;
+	}
+	while( Inventory.size() > a ) {
+		Inventory.remove( Inventory.size() - 1 ) ;
 	}
 	junctures( a + 1 ) ;
     }
@@ -78,6 +80,11 @@ public class Woo {
 		}
 	    }
 	}
+	// diagnostics
+	/*
+	System.out.println( checkPoints ) ;
+	System.out.println( Inventory ) ;
+	*/
 	junctures(this.checkPoints.size());
     }
 
