@@ -19,15 +19,16 @@ OBSTACLES OVERCOME
 	second if statement (props to Alison).
 - We used an int[] to keep track of the player's choices, and then depending on those
 	choices the game would progress to the next chapter (using if statements).
+- Issue regarding idiot-proofing: Kristin put in if else statements to keep the player
+	from putting in choices they don't have. This caused an issue due to the fact
+	that it was assumed that the choices would have numbers equal to 2*last choice
+	or 2*last choice minus 1. The choices were renumbered.
 
 UNRESOLVED ISSUES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - How to idiot proof the game so a wrong input won't make the player start over.
-- How to keep the player from typing in a wrong input, resulting in a person in
-	Chapter4 SL 1 picking a choice from Chapter4 SL4, or something like that.
-- Player choices. The numbers of the choices make no sense -- chapter 4 has choices
-	such as 1 and 6 together. Even Chapter 1 storyLine2 gives choices like 3
-	and 4.
+- Player choices. The numbers of the choices make no sense -- Chapter 1 storyLine2
+	gives choices like 3 and 4.
 	
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
