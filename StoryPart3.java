@@ -62,8 +62,8 @@ public class StoryPart3 extends StoryPart {
 			   "\n\tShe calls me back hours later. She has found the names of two people who seem to dislike to brother--Peter Arnolds and Nikki Yelnats." +
 			   "\n\nNew Clue: Felix's Corpse" +
 			   "\n\nChoices: " +
-			   "\n1 : Arnolds" +
-			   "\n2 : Yelnats" + 
+			   "\n3 : Arnolds" +
+			   "\n4 : Yelnats" + 
 			   "\n-------------------------------" ) ;
 	return body ;
     }
@@ -86,8 +86,8 @@ public class StoryPart3 extends StoryPart {
 			   "\n\tIt's Felix Casey's." +
 			   "\n\nNew Clue: Videotape" +
 			   "\n\nChoices: " +
-			   "\n3 : Yelnats" +
-			   "\n4 : Go to the police station!" + 
+			   "\n5 : Yelnats" +
+			   "\n6 : Go to the police station!" + 
 			   "\n-------------------------------" ) ;
 	return video ;
     }
@@ -113,8 +113,8 @@ public class StoryPart3 extends StoryPart {
 			   "\n\t They found a body. It's Felix Casey's" +
 			   "\n\nNew Clue: Yelnat's Memo" +
 			   "\n\nChoices: " +
-			   "\n5 : Go to the police station!" +
-			   "\n6 : Arnolds" +
+			   "\n7 : Go to the police station!" +
+			   "\n8 : Arnolds" +
 			   "\n-------------------------------" ) ;
 	return memo ;
     }
@@ -134,8 +134,8 @@ public class StoryPart3 extends StoryPart {
 			   "\n\tIt starts to ring. Of course it does." +
 			   "\n\nNew Clue: Yelnat's Memo" +
 			   "\n\nChoices: " + 
-			   "\n7 : Stevenson" +
-			   "\n8 : Evans" +
+			   "\n8 : Stevenson" +
+			   "\n9 : Evans" +
 			   "\n-------------------------------");
 	return memo;
     }

@@ -130,10 +130,10 @@ public class StoryPart5 extends StoryPart {
     public Clue StoryLine5() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 5 - Home Visit" +
-			   "\n\n\tI track down Ms. Yelnat’s number. She invites me to her apartment. I get there a bit early." +
+			   "\n\n\tI track down Ms. Yelnat's number. She invites me to her apartment. I get there a bit early." +
 				"\n\tShe looks haggard." + 
 				"\n\t'Had to finish a building model with a colleague. Couldn’t get supplies earlier. Really tired, sorry.'" + 
-				"\n\tThere isn’t much to talk about. She was being blackmailed, and she’s glad that Felix is gone now, but the very important visitor -- an.. ally of Stevenson, had kind of been push them to complete plans for a building. She’s pretty sure it’s meant for really illegal purposes -- as illegal as a building could get -- but doesn’t care enough. I should have gone to her before I went to the police station. She only pulled an all-nighter after then. I don’t get much. I let her get some rest." + 
+				"\n\tThere isn’t much to talk about. She was being blackmailed, and she’s glad that Felix is gone now, but the very important visitor -- an.. ally of Stevenson, had kind of been push them to complete plans for a building. She’s pretty sure it’s meant for really illegal purposes -- as illegal as a building could get -- but doesn’t care enough. I should have gone to her before I went to the police station. She only pulled an all-nighter after then. I don't get much. I let her get some rest." + 
 				"\n\tJust before I leave the building, an older woman stops me." + 
 				"\n\t'You are a detective, yes?'" + 
 				"\n\tI nod." + 
