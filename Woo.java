@@ -88,7 +88,9 @@ public class Woo {
 	System.out.println("\nThe time has come. Who is the murderer?" +
 			   "\n1. Mrs. Irma Caro" +
 			   "\n2. Mr. Peter Arnolds" +
-			   "\n3. Ms. Trixie Stevenson");
+			   "\n3. Ms. Trixie Stevenson" + 
+			   "\n4. Mr. Harry Evans" + 
+			   "\n5. Ms. Nikki Yelnats");
 	System.out.println("\nType in the number of your choice or 0 to check inventory.");
 	int a = Keyboard.readInt();
 	if (a == 0) {
