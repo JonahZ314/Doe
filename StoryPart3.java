@@ -134,8 +134,8 @@ public class StoryPart3 extends StoryPart {
 			   "\n\tIt starts to ring. Of course it does." +
 			   "\n\nNew Clue: Yelnat's Memo" +
 			   "\n\nChoices: " + 
-			   "\n8 : Stevenson" +
-			   "\n9 : Evans" +
+			   "\n9 : Stevenson" +
+			   "\n10 : Evans" +
 			   "\n-------------------------------");
 	return memo;
     }
