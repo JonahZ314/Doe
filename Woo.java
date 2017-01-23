@@ -55,8 +55,6 @@ public class Woo {
 	if (x==6) {
 	    bob = new StoryPart5();
 	    Inventory.add(bob.match(lastChoice));
-	}
-	if (x==7) {
 	    this.chooseCulprit();
 	    this.hindsight();
 	    return;

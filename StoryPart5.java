@@ -22,32 +22,33 @@ public class StoryPart5 extends StoryPart {
     }
 
     public Clue match(int x) {
-	if (x == 1) {
+	//all the odd number choices in the last chapter lead to the gut feeling chapter
+	if ((x % 2) == 1) {
 	    return StoryLine1();
-	}
-	if (x == 2) {
-	    return StoryLine2();
-	}
-	if (x == 3) {
-	    return StoryLine3();
-	}
-	if (x == 4) {
-	    return StoryLine4();
-	}
-	if (x == 5) {
-	    return StoryLine5();
 	}
 	if (x == 6) {
 	    return StoryLine6();
 	}
-	if (x == 7) {
-	    return StoryLine7();
-	}
 	if (x == 8) {
 	    return StoryLine8();
 	}
-	if (x == 9) {
-	    return StoryLine9();
+	if (x == 10) {
+	    return StoryLine10();
+	}
+	if (x == 12) {
+	    return StoryLine12();
+	}
+	if (x == 14) {
+	    return StoryLine14();
+	}
+	if (x == 16) {
+	    return StoryLine16();
+	}
+	if (x == 18) {
+	    return StoryLine18();
+	}
+	if (x == 20) {
+	    return StoryLine20();
 	}
 	else return whisper;
     }
@@ -61,12 +62,11 @@ public class StoryPart5 extends StoryPart {
 			   "\n\tI know I've just one chance to bring justice to the dead, but I'll make my choice and hope I don't regret it." +
 			   "\n\tBecause otherwise... I'll never forget it." +
 			   "\n\nNew Clue: Gut feeling" +
-			   "\n\nType any number to continue." +
 			   "\n-------------------------------");
 	return gutFeeling;
     }
 
-    public Clue StoryLine2() {
+    public Clue StoryLine6() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 5 - We'll Meet Again Some Sunny Day" +
 			   "\n\n\tI go to meet Ms. Yelnats. This is my last lead, and I want to find something, anything that could close this case. Stevenson gets me a meeting. I end up going to her apartment, in the middle of Nocturne. The district gives me the creeps." + 
@@ -75,44 +75,42 @@ public class StoryPart5 extends StoryPart {
 			   "\n\t'So, Felix Casey is dead.'" + "I nod." + 
 			   "\n\tWhat do you want to know?" +  
 			   "\n\tShe was in the area they found the body the same night I investigated Mrs. Caro and Ms. Stevenson, but claims to not have seen anything. She was picking up modeling supplies from the general goods store. It was fast. The owner was a bit rude, trying to get her out despite still having a half hour until closing. He was very annoyed. After making her purchases she left, going in the exact opposite direction as the alley the body was found in. I don't get much else. I ask for some water, and she waves me into the kitchen. I get some water, but I notice that there is a knife missing from her set. I ask." + 
-			   "\n\t'That doesn’t matter.'" + 
+			   "\n\t'That doesn't matter.'" + 
 			   "\n\t'I was just curious--'" + 
-			   "\n\t'It. Doesn’t. Matter. It broke, I threw it out, stop talking.'" + 
+			   "\n\t'It. Doesn't. Matter. It broke, I threw it out, stop talking.'" + 
 			   "\n\tShe refuses to talk further. I leave." +
 			   "\n\nNew Clue: Yelnat's Missing Knife" +
-			   "\n\nType any number to continue." +
 			   "\n-------------------------------");
 	return missingKnife;
     }
 
-    public Clue StoryLine3() {
+    public Clue StoryLine8() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 5 - There Will Be Answers" +
-			   "\n\n\tWell, there’s just one person left to ask, isn’t there?" + 
+			   "\n\n\tWell, there's just one person left to ask, isn't there?" + 
 			   "\n\tArnolds. The owner of the general goods store. I head over for a chat." + 
 			   "\n\tHe is polite, as always, but tense. Possibly irritated, distracted. I want to know about Felix." + 
-			   "\n\t'That boy was a... nuisance, but he didn’t, he didn’t deserve that kind of ending.'" + 
+			   "\n\t'That boy was a... nuisance, but he didn't, he didn't deserve that kind of ending.'" + 
 			   "\n\t'Did you know him well?'" + 
-			   "\n\t'He was a minor annoyance when he swung by, but beyond that, no.' He doesn’t tell me anything useful." +
-			   "\n\tIt’s late, I’m looking for some kind of sign of who could have done it, and I do something really stupid. I dig through trash. The body had a stab wound, so maybe the knife is somewhere nearby. I end up digging through the trashcans of three different stores and the dumpster in the alley where Feli was found. The last one had a knife, so I stow it and go home. It’s way, way too late for this. For me, at least -- some ruffians are starting to lurk near my home. I don’t care." + 
+			   "\n\t'He was a minor annoyance when he swung by, but beyond that, no.' He doesn't tell me anything useful." +
+			   "\n\tIt's late, I'm looking for some kind of sign of who could have done it, and I do something really stupid. I dig through trash. The body had a stab wound, so maybe the knife is somewhere nearby. I end up digging through the trashcans of three different stores and the dumpster in the alley where Feli was found. The last one had a knife, so I stow it and go home. It's way, way too late for this. For me, at least -- some ruffians are starting to lurk near my home. I don't care." + 
 			   "\n\tI shower twice and go to sleep. The knife is placed on my desk." +
-			   "\n\tI wake up still smelly and feeling so much regret, but I finally take a look at the knife. There’s a chunk of flesh in a chip on the blade. Otherwise, it seems wiped clean. I bring it to the police for testing." +
-			   "\n\tIt’s human. I have my last clue." +
+			   "\n\tI wake up still smelly and feeling so much regret, but I finally take a look at the knife. There's a chunk of flesh in a chip on the blade. Otherwise, it seems wiped clean. I bring it to the police for testing." +
+			   "\n\tIt's human. I have my last clue." +
 			   "\n\nNew Clue: Smelly Knife" +
-			   "\n\nType any number to continue." +
 			   "\n-------------------------------");
 	return smellyKnife;
     }
 
-    public Clue StoryLine4() {
+    public Clue StoryLine10() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 5 - Reality Strike" +
 			   "\n\n\tI head over to the station. No point putting it off further." +
-			   "\n\tI made a mob boss wait over an hour, apparently. Felix’s boss. Leader of the Pixies. She looks vaguely irritated." +
+			   "\n\tI made a mob boss wait over an hour, apparently. Felix's boss. Leader of the Pixies. She looks vaguely irritated." +
 			   "\n\t'A pastry stop, Mx. Doe?' I bristle." +
-			   "\n\t'I was checking up on a lead.' I am led to the coroner’s office, where Alice is. She sits, staring. She’s been staring for hours. The smell of acid makes my eyes water a bit." + 
-				"\n\tFelix’s body is covered. The examination was finished. The body was possibly stabbed, possibly pummeled, and very likely dragged to Nocturne posthumously." + 
-				"\n\t'I can give you Casey’s schedule, if that would help narrow things down." +
+			   "\n\t'I was checking up on a lead.' I am led to the coroner’s office, where Alice is. She sits, staring. She's been staring for hours. The smell of acid makes my eyes water a bit." + 
+				"\n\tFelix's body is covered. The examination was finished. The body was possibly stabbed, possibly pummeled, and very likely dragged to Nocturne posthumously." + 
+				"\n\t'I can give you Casey's schedule, if that would help narrow things down." +
 				"'Could you tell me anything about Nocturne instead?' She pauses." + 
 				"\n\t'Why?'" + 
 				"\n\t'Because someone decided that the middle of Nocturne, right out in the open, was a good place to dump a body.'" + 
@@ -122,65 +120,62 @@ public class StoryPart5 extends StoryPart {
 				"\n\t'No one hurts a Pixie and gets aways with it.'" + 
 				"I leave them there." +
 			   "\n\nNew Clue: Stevenson's Gossip" +
-			   "\n\nType any number to continue." +
 			   "\n-------------------------------");
 	return stevensonGossip;
     }
 
-    public Clue StoryLine5() {
+    public Clue StoryLine12() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 5 - Home Visit" +
 			   "\n\n\tI track down Ms. Yelnat's number. She invites me to her apartment. I get there a bit early." +
 				"\n\tShe looks haggard." + 
-				"\n\t'Had to finish a building model with a colleague. Couldn’t get supplies earlier. Really tired, sorry.'" + 
-				"\n\tThere isn’t much to talk about. She was being blackmailed, and she’s glad that Felix is gone now, but the very important visitor -- an.. ally of Stevenson, had kind of been push them to complete plans for a building. She’s pretty sure it’s meant for really illegal purposes -- as illegal as a building could get -- but doesn’t care enough. I should have gone to her before I went to the police station. She only pulled an all-nighter after then. I don't get much. I let her get some rest." + 
+				"\n\t'Had to finish a building model with a colleague. Couldn't get supplies earlier. Really tired, sorry.'" + 
+				"\n\tThere isn't much to talk about. She was being blackmailed, and she's glad that Felix is gone now, but the very important visitor -- an.. ally of Stevenson, had kind of been push them to complete plans for a building. She's pretty sure it's  meant for really illegal purposes -- as illegal as a building could get -- but doesn't care enough. I should have gone to her before I went to the police station. She only pulled an all-nighter after then. I don't get much. I let her get some rest." + 
 				"\n\tJust before I leave the building, an older woman stops me." + 
 				"\n\t'You are a detective, yes?'" + 
 				"\n\tI nod." + 
 				"\n\t'I see a strange man late at night.' Um, okay?" + 
 				"\n\t'He carry big package -- big like a body. And they found a body, yes?' I nod, paying more attention now." + 
 				"\n\t'He a big man, very big, and very scary. He came from Main Street, I think. My children, they live in that direction. You keep them safe, yes?' I nod again." + 
-				"\n\t'Thank you, ma’am.'" + 
+				"\n\t'Thank you, ma'am.'" + 
 				"\n\tI leave." +
 			   "\n\nNew Clue: Old Lady's Gossip" +
-			   "\n\nType any number to continue." +
 			   "\n-------------------------------");
 	return oldLadyGossip;
     }
 
-    public Clue StoryLine6() {
+    public Clue StoryLine14() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 5 - Shopping Trip" +
-			   "\n\n\tI’ve been avoiding this long enough. It’s time to visit Arnolds. I walk over to his store." + 
+			   "\n\n\tI've been avoiding this long enough. It's time to visit Arnolds. I walk over to his store." + 
 				"\n\t'Mr. Arnolds, how are you?'" +
 				"\n\t'Well, and you?'" + 
-				"\n\t'I’m investigating the death of Felix Casey. I don’t suppose you’d know about him?'" + 
+				"\n\t'I'm investigating the death of Felix Casey. I don't suppose you'd know about him?'" + 
 				"\n\t'That boy was a... nuisance. I heard about how he died, though -- no one deserves that.'" + 
 				"\n\t'Did you know him well?'" + 
 				"\n\t'He was a minor annoyance when he swung by, but beyond that, no.'" + 
-				"\n\t'Really? Because I’ve been asking around, and I’ve been told he has some dirt on you.' He stiffens. Further prodding reveals that he'd been giving Felix quite a bit of cash, much like the other shops on Main Street. I don’t get much else. I head home, taking a shortcut." +
+				"\n\t'Really? Because I've been asking around, and I've been told he has some dirt on you.' He stiffens. Further prodding reveals that he'd been giving Felix quite a bit of cash, much like the other shops on Main Street. I don't get much else. I head home, taking a shortcut." +
 				"\n\tI smell acid." + 
 				"\n\tI see a stain in a corner of the alley." + 
 				"\n\tWell." + 
 				"\n\tThis is suspicious." + 
 				"\n\tI take a sample." + 
-				"\n\tIt smells like the coroner’s office." + 
+				"\n\tIt smells like the coroner's office." + 
 				"\n\tIt smells like death." +
 			   "\n\nNew Clue: Acid on the Rocks" +
-			   "\n\nType any number to continue." +
 			   "\n-------------------------------");
 	return acid;
     }
 
-    public Clue StoryLine7() {
+    public Clue StoryLine16() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 5 - Judgement" +
 			   "\n\n\tI head over to the station. No point putting it off further." +
 			   "\n\tI made a mob boss wait over an hour, apparently. Felix's boss. Leader of the Pixies. She looks vaguely irritated." +
 			   "\n\t'A pastry stop, Mx. Doe?' I bristle." +
-			   "\n\t'I was checking up on a lead.' I am led to the coroner’s office, where Alice is. She sits, staring. She’s been staring for hours. The smell of acid makes my eyes water a bit." + 
-				"\n\tFelix’s body is covered. The examination was finished. The body was possibly stabbed, possibly pummeled, and very likely dragged to Nocturne posthumously." + 
-				"\n\t'I can give you Casey’s schedule, if that would help narrow things down." +
+			   "\n\t'I was checking up on a lead.' I am led to the coroner's office, where Alice is. She sits, staring. She's been staring for hours. The smell of acid makes my eyes water a bit." + 
+				"\n\tFelix's body is covered. The examination was finished. The body was possibly stabbed, possibly pummeled, and very likely dragged to Nocturne posthumously." + 
+				"\n\t'I can give you Casey's schedule, if that would help narrow things down." +
 				"'Could you tell me anything about Nocturne instead?' She pauses." + 
 				"\n\t'Why?'" + 
 				"\n\t'Because someone decided that the middle of Nocturne, right out in the open, was a good place to dump a body.'" + 
@@ -190,18 +185,17 @@ public class StoryPart5 extends StoryPart {
 				"\n\t'No one hurts a Pixie and gets aways with it.'" + 
 				"I leave them there." +
 			   "\n\nNew Clue: Stevenson's Gossip" +
-			   "\n\nType any number to continue." +
 			   "\n-------------------------------");
 	return stevensonGossip;
     }
 
-    public Clue StoryLine8() {
+    public Clue StoryLine18() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 5 - Night Time Farewell" +
-			   "\n\n\tIt's late when I find Evans. He’s standing outside a debilitated building, fiddling with a knife and a bit of wood." + 
+			   "\n\n\tIt's late when I find Evans. He's standing outside a debilitated building, fiddling with a knife and a bit of wood." + 
 				"\n\t'Evenin'.'" + 
 				"\n\t'Good evening to you, too. Mr. Evans?'" + 
-				"\n\t'That’s me. Whaddya want a' dis hour? It's gettin' kinda late -- shouldn't you goodie-two-shoes types be 'eadin' home?' His accent is ridiculous, but I refrain from laughing." + 
+				"\n\t'That's me. Whaddya want a' dis hour? It's gettin' kinda late -- shouldn't you goodie-two-shoes types be 'eadin' home?' His accent is ridiculous, but I refrain from laughing." + 
 				"\n\t'Are you Felix Casey's rival?" +
 				"\n\t'Yeah -- whaddya want? I could chase 'im off if 'e's botherin' ya--'" + 
 				"\n\t'He's dead, Mr. Evans.'" + 
@@ -211,16 +205,15 @@ public class StoryPart5 extends StoryPart {
 				"\n\t'Mr. Evans.' He pauses. Sucks in breath. Looks up at me. 'I do not suspect you, but I was told you tended to keep track of his whereabouts?'" + 
 				"\n\t'Yeah... Yeah, usually. 'E wasn't here for a few days, but sometimes he'll stay away a while when I get 'im good. We were fighting last time we met. Did, did he make it back?'" + 
 				"\n\t'Three days ago?' He nods. 'No.' He jolts. Stares." + 
-				"\n\tIt’s easy to get him to talk. Too easy -- I let him talk about anyone who might have wanted Felix Casey gone." + 
+				"\n\tIt's easy to get him to talk. Too easy -- I let him talk about anyone who might have wanted Felix Casey gone." + 
 				"\n\tMrs. Caro, who was sick of Felix hitting on her husband, Mr. Arnolds who paid Felix hush money, Ms. Stevenson who trusted and distrusted Felix in turns and..." + 
-				"\n\tMs. Yelnats. She'd been a promising young architect, heading to the big city for her wonderfully creative and useful designs. She'd never done anything to fight Felix, but she was a bit bitter, had a tendency for vengeance and a lot of contacts. She was new, too. Felix had known everyone else for years. I don’t know how to feel about this." +
+				"\n\tMs. Yelnats. She'd been a promising young architect, heading to the big city for her wonderfully creative and useful designs. She'd never done anything to fight Felix, but she was a bit bitter, had a tendency for vengeance and a lot of contacts. She was new, too. Felix had known everyone else for years. I don't know how to feel about this." +
 			   "\n\nNew Clue: Evan's Report on Everyone" +
-			   "\n\nType any number to continue." +
 			   "\n-------------------------------");
 	return report;
     }
 
-    public Clue StoryLine9() {
+    public Clue StoryLine20() {
 	System.out.println("\n-------------------------------" +
 			   "\nCHAPTER 5 - Table for Four" +
 			   "\n\n\tMr. Evans is only slightly red-eyed when we get to Scratch Tavern. He's tense. It's not exactly a good neighborhood after all. He tells me he lived here once, growing up." +
@@ -234,12 +227,11 @@ public class StoryPart5 extends StoryPart {
 				"\n\t'So we'll discuss motives. Let's trust that the killer is not among us.'" + 
 				"\n\tThis leaves Arnolds and Yelnats." + 
 				"\n\tOn one hand, Yelnats is a recent victim of blackmail, with plenty of contacts. Her co-workers are fond of her sarcasm. There has also been a lot of stress placed on her, with deadlines closing on fast. However, she seems to be giving it her all." + 
-				"\n\tOn the other hand, Felix Casey had found more blackmail on Arnolds rather recently. Arnolds is strong enough to pull it off, certainly. But would he? He's a gentle, hardworking man, and Felix doesn’t seem to have upped the hush money much." + 
+				"\n\tOn the other hand, Felix Casey had found more blackmail on Arnolds rather recently. Arnolds is strong enough to pull it off, certainly. But would he? He's a gentle, hardworking man, and Felix doesn't seem to have upped the hush money much." + 
 				"\n\tThen again, Felix liked to skim some profits off the top." + 
 				"\n\tStevenson orders us something to eat. The only meals available are steak with fries and a vegetarian quiche. Still, surprisingly nice. Civil." + 
 				"\n\tI have a suspect in mind." +
 			   "\n\nNew Clue: Felix's Activites" +
-			   "\n\nType any number to continue." +
 			   "\n-------------------------------");
 	return activities;
     }
