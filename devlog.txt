@@ -52,6 +52,12 @@ MID-DEVELOPMENT DESIGN CHANGES
 LESSONS LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Given if, if and else statements, the else actually connects to the first if, not the second.
+- Diagrams are very very useful in organizing a large project, especially in one that is as complex as a
+	lengthy choose-your-own adventure game, that has multiple different storylines. They help you stay
+	on top of the situation, so you know where you are in the grand scheme of things.
+- It's very important to have good communication with your teammates--telling them what you have done or 
+	knowing what they have done, so that helps prevent merge issues in github, as well as keep track
+	of what still needs to get done. The devlog was very useful for this.
 
 ||||||||||||||||||||||||||||||||||||||||||
 	
